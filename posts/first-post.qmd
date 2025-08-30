@@ -1,10 +1,10 @@
 ---
-title: "Hello Quarto"
-description: "Welcome to my Quarto portfolio"
-author: "Josh Brake"
-date: "8/23/24"
+title: "First Post"
+description: "Isaiah's first blog post"
+author: "Isaiah Jeter"
+date: "8/29/25"
 categories:
-  - reflection
-  - labreport
+  - goals
 draft: false
 ---
+This semester I'm taking MircoP's to strengthen my foundation in embedded systems. My goal is to gain a deeper understanding of how hardware and software interact at the lowest levels. I want to build the skills to better be able to design, program, and debug microcontroller-based systems, since these are commonly using in robotics and autonomous platforms. I see this course as a chance to prepare myself for future projects in robotics.
