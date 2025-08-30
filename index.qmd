@@ -1,0 +1,17 @@
+---
+title: "E155 Portfolio"
+image: images/headshot.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/isaiah-jeter/
+    - icon: github
+      text: Github
+      href: https://github.com/Isaiah-Jeter
+---
+
+Isaiah Jeter is an embedded software engineer with hands-on experience in robotics, autonomous vehicles, and real-time systems. He has developed firmware and control algorithms for subsea autonomous monitoring vehicles, marine surface vessels, and robotic manufacturing systems. His work spans embedded programming, networking, and simulation, with projects integrating ROS 2, PX4, and hardware-level motor control. With leadership experience from VEX Robotics and academic research in autonomy, Isaiah brings both breadth and depth across robotics engineering. He is passionate about building intelligent systems that connect software, electronics, and the physical world.
+
+
