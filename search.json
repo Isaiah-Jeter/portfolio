@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "First Post\n\n\nIsaiah’s first blog post\n\n\n\n\n\nAug 29, 2025\n\n\nIsaiah Jeter\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "E155 Portfolio",
+    "section": "",
+    "text": "Isaiah Jeter is an embedded software engineer with hands-on experience in robotics, autonomous vehicles, and real-time systems. He has developed firmware and control algorithms for subsea autonomous monitoring vehicles, marine surface vessels, and robotic manufacturing systems. His work spans embedded programming, networking, and simulation, with projects integrating ROS 2, PX4, and hardware-level motor control. With leadership experience from VEX Robotics and academic research in autonomy, Isaiah brings both breadth and depth across robotics engineering. He is passionate about building intelligent systems that connect software, electronics, and the physical world."
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "First Post",
+    "section": "",
+    "text": "This semester I’m taking MircoP’s to strengthen my foundation in embedded systems. My goal is to gain a deeper understanding of how hardware and software interact at the lowest levels. I want to build the skills to better be able to design, program, and debug microcontroller-based systems, since these are commonly using in robotics and autonomous platforms. I see this course as a chance to prepare myself for future projects in robotics."
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Labs",
+    "section": "",
+    "text": "View Lab 1"
+  },
+  {
+    "objectID": "labs.html#lab-1-board-assembly-and-testing",
+    "href": "labs.html#lab-1-board-assembly-and-testing",
+    "title": "Labs",
+    "section": "",
+    "text": "View Lab 1"
+  },
+  {
+    "objectID": "labs.html#lab-2-multiplexed-7-segment-display",
+    "href": "labs.html#lab-2-multiplexed-7-segment-display",
+    "title": "Labs",
+    "section": "Lab 2: Multiplexed 7-Segment Display",
+    "text": "Lab 2: Multiplexed 7-Segment Display\nView Lab 2"
+  },
+  {
+    "objectID": "labs.html#lab-3-keypad-scanner",
+    "href": "labs.html#lab-3-keypad-scanner",
+    "title": "Labs",
+    "section": "Lab 3: Keypad Scanner",
+    "text": "Lab 3: Keypad Scanner\nView Lab 3"
+  },
+  {
+    "objectID": "labs.html#lab-4-digital-audio",
+    "href": "labs.html#lab-4-digital-audio",
+    "title": "Labs",
+    "section": "Lab 4: Digital Audio",
+    "text": "Lab 4: Digital Audio\nView Lab 4"
+  },
+  {
+    "objectID": "labs.html#lab-5-interrupts",
+    "href": "labs.html#lab-5-interrupts",
+    "title": "Labs",
+    "section": "Lab 5: Interrupts",
+    "text": "Lab 5: Interrupts\nView Lab 5"
+  },
+  {
+    "objectID": "labs.html#lab-6-the-internet-of-things-and-serial-peripheral-interface",
+    "href": "labs.html#lab-6-the-internet-of-things-and-serial-peripheral-interface",
+    "title": "Labs",
+    "section": "Lab 6: The Internet of Things and Serial Peripheral Interface",
+    "text": "Lab 6: The Internet of Things and Serial Peripheral Interface\nView Lab 6"
+  },
+  {
+    "objectID": "labs.html#lab-7-the-advanced-encryption-standard-aes",
+    "href": "labs.html#lab-7-the-advanced-encryption-standard-aes",
+    "title": "Labs",
+    "section": "Lab 7: The Advanced Encryption Standard (AES)",
+    "text": "Lab 7: The Advanced Encryption Standard (AES)\nView Lab 7"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Link to Course Website"
+  }
+]
