@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>lab1 – E155 Portfolio</title>
+<title>Lab1 – E155 Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,11 +123,50 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lab1</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Lab 1 Outcomes My lab 1 design meets all the proficiency specs. The LED’s work as intended, and the 7-segment display also works as intended. As for the excellence specs, I did not write any test benches or include calculations for current draw on the segments. I spent 20 hours on this lab.</p>
+<p>Lab 1 AI Prototype To synthesise hardware for Lab 1, I used Claudeai basic plan with the following prompt: “Write SystemVerilog HDL to leverage the internal high-speed oscillator in the Lattice UP5K FPGA and blink an LED at 2 Hz. Take full advantage of SystemVerilog syntax, for example, using logic instead of wire and reg.” The SystemVerilog constructs that the LLm generated that were new to me were localparam and a different instantiation method for the high-speed oscillator. The localparam, I guess, makes sense, but it is different from what I used. I just hardcoded the number, so in hardware it would take up a register. I don’t exactly know what local param does, but I’d assume it’d do the same thing as I did, which is take up a register. The different instation method being new to me, I feel like it may just be a lack of experience on y part because the instation method I used, which was copy pasted from one of the tutorials as per instructions in the lab, was also new to me. The LLM-generated code did not end up synthesizing the first time around or even after I provided it with the errors on the second and third time around. The main issue was that it was using an unrecognized name for the high-speed oscillator. Even after telling it this, it chose another unrecognized name for it. The exact error Radiant outputted was “instantiating unknown module SB_HFOSC. VERI-1063.” Next time I incorporate an LLm into my workflow, I would give it more details on my hardware to avoid such troubles.</p>
+<p>Lab 1 Code</p>
+<p>top.sv</p>
+<p>/** Author: Isaiah Jeter Contact Info: ijeter@g.hmc.edu Last Updated: 09/02/25 Summary: Instantiates the led controller and 7-segment display controller for lab 1 */ module top( input logic [3:0] switches, output logic [6:0] seg,<br>
+output logic [2:0] led<br>
+);</p>
+<p>segControl segment(switches, seg); ledControl ledcontroller(switches, led); endmodule</p>
+<p>segControl.sv</p>
+<p>/** Author: Isaiah Jeter Contact Info: ijeter@g.hmc.edu Last Updated: 09/02/25 Summary: Control module for seven segment display */ module segControl ( input logic [3:0] switches,<br>
+output logic [6:0] seg<br>
+);</p>
+<p>always_comb begin case (switches) 4’h0: seg = 7’b1000000; 4’h1: seg = 7’b1111001; 4’h2: seg = 7’b0100100; 4’h3: seg = 7’b0110000; 4’h4: seg = 7’b0011001; 4’h5: seg = 7’b0010010; 4’h6: seg = 7’b0000010; 4’h7: seg = 7’b1111000; 4’h8: seg = 7’b0000000; 4’h9: seg = 7’b0010000; 4’hA: seg = 7’b0001000; 4’hB: seg = 7’b0000011; 4’hC: seg = 7’b1000110; 4’hD: seg = 7’b0100001; 4’hE: seg = 7’b0000110; 4’hF: seg = 7’b0001110; default: seg = 7’b1111111;</p>
+<pre><code>   endcase</code></pre>
+<p>end</p>
+<p>endmodule</p>
+<p>ledControl.sv</p>
+<p>/** Author: Isaiah Jeter Contact Info: ijeter@g.hmc.edu Last Updated: 09/02/25 Summary: Control module for logic LEDs */ module ledControl ( input logic [3:0] switches, // 4 DIP switches [3:0] output logic [2:0] led // 3 LED outputs [2:0] ); logic int_osc; logic [24:0] counter; logic toggle; HSOSC #(.CLKHF_DIV(2’b01)) hf_osc (.CLKHFPU(1’b1), .CLKHFEN(1’b1), .CLKHF(int_osc));</p>
+<p>always_ff @(posedge int_osc) begin if(counter &gt;= 25’d19999999) begin toggle &lt;= ~toggle; counter &lt;= 0; end else counter &lt;= counter + 25’d1; end</p>
+<p>// LED control logic logic led0, led1;</p>
+<p>assign led0 = switches[1] ^ switches[0]; assign led1 = switches[3] &amp; switches[2];</p>
+<p>assign led[2] = toggle; assign led[1] = led1; assign led[0] = led0;</p>
+<p>endmodule</p>
 
 
 
