@@ -1,7 +1,7 @@
 ---
-title: "E155 Blog"
+title: "Digital Hardware Design Showcase"
 listing:
-  contents: posts
+  contents: dhdProjects
   sort: "date desc"
   type: default
   categories: false

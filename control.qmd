@@ -1,5 +1,5 @@
 ---
-title: "Labs"
+title: "Control Systems Showcase"
 ---
 
 ## Lab 1: Board Assembly and Testing

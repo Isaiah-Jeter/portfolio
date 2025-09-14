@@ -1,0 +1,13 @@
+---
+title: "Multicycle Proccesor"
+description: "Built and simulated a multicycle RISC-V processor in SystemVerilog"
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - Digital Design
+  - Verilog
+draft: false
+---
+I designed and implemented a custom multicycle processor module in SystemVerilog capable of performing fused multiply-add operations on 16-bit half-precision floating-point numbers. This project challenged me to integrate multiple hardware concepts, including exponent alignment, mantissa normalization through leading-one detection, and handling corner cases for addition and subtraction with differing exponents. I built supporting modules such as unpacking, product rounding, and shift/leading-zero detection logic, which all come together to execute floating-point arithmetic at the hardware level. By working through the details of rounding, overflow, and subtraction edge cases, I strengthened both my understanding of floating-point standards and my ability to architect complex digital designs.
+
+<a href="https://github.com/Isaiah-Jeter/multiprocessor" class="btn btn-primary" target="_blank">Git Repository</a>

@@ -2,17 +2,17 @@ project:
   type: website
 
 website:
-  title: "E155 Portfolio"
+  title: "Isaiah Jeter's Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
-        text: Blog
-      - href: labs.qmd
-        text: Labs
-      - href: resources.qmd
-        text: Resources
+      - href: dhd.qmd
+        text: Digital Hardware Design
+      - href: control.qmd
+        text: Control Systems
+      - href: eBoat.qmd
+        text: Electric Boat
           
 
 format:
@@ -23,5 +23,7 @@ format:
     css: styles.css
     toc: true
 
+metadata-files:
+  - dhdProjects/_metadata.yml
 
 
