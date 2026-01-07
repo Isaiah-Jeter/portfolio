@@ -7,12 +7,17 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: prime.qmd
+        text: Amazon Prime Air
+      - href: ahi.qmd
+        text: Amidon Heavy Industries
+      - href: apple.qmd
+        text: Apple
+      - href: aah.qmd
+        text: Advanced Alloy Holdings
       - href: dhd.qmd
         text: Digital Hardware Design
-      - href: control.qmd
-        text: Control Systems
-      - href: eBoat.qmd
-        text: Electric Boat
+
           
 
 format:

@@ -1,5 +1,5 @@
 ---
-title: "E155 Portfolio"
+title: "Welcome to Isaiah Jeter's Portfolio"
 image: images/headshot.jpg
 about:
   template: jolla
@@ -11,6 +11,82 @@ about:
       text: Github
       href: https://github.com/Isaiah-Jeter
 ---
+
+Isaiah Jeter is an embedded software engineer pursuing what value Robotics and AI can have in industries where they haven't previously been used. He has woredk with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
+
+
+
+## Technologies Impacted
+
+::: {.grid}
+::: {.g-col-4}
+![Amazon Prime Air](images/headshot.jpg)
+
+[**Amazon Prime Air**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Lead-Free Brass Alloy](images/headshot.jpg)
+
+[**Lead-Free Brass Alloy**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Floating-Point FMA](images/headshot.jpg)
+
+[**Floating-Point FMA**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Analog & Digital Filters](images/headshot.jpg)
+
+[**Analog & Digital Filters**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Embedded Networking](images/headshot.jpg)
+
+[**Embedded Networking**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![ROS PX4 Simulation](images/headshot.jpg)
+
+[**ROS + PX4 Simulation**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![FPGA Design](images/headshot.jpg)
+
+[**FPGA Hardware Design**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Computer Vision](images/headshot.jpg)
+
+[**Computer Vision**](prime.qmd)
+:::
+
+::: {.g-col-4}
+![Control Systems](images/headshot.jpg)
+[**Control Systems**](prime.qmd)
+:::
+:::
+
+**He has had the following work experience**
+
+[Amazon Prime Air](prime.qmd)
+- Navigation Engineer
+
+[Amidon Heavy Indsutries](ahi.qmd)
+- Embedded Software Intern
+
+[Apple](apple.qmd)
+- Embedded Software Engineer
+
+[Advanced Alloy Holdings](aah.qmd)
+- Materials Engineer
+
 
 Isaiah Jeter is an embedded software engineer with hands-on experience in robotics, autonomous vehicles, and real-time systems. He has developed firmware and control algorithms for subsea autonomous monitoring vehicles, marine surface vessels, and robotic manufacturing systems. His work spans embedded programming, networking, and simulation, with projects integrating ROS 2, PX4, and hardware-level motor control. With leadership experience from VEX Robotics and academic research in autonomy, Isaiah brings both breadth and depth across robotics engineering. He is passionate about building intelligent systems that connect software, electronics, and the physical world.
 

@@ -1,0 +1,25 @@
+---
+title: "Advanced Alloy Holdings"
+page-layout: article
+image: images/headshot.jpg
+
+---
+
+## Work Overview
+Assisted in developing a commercially viable lead-free brass alloy that could revolutionize the brass industry. 
+
+Won First Place Prize at the 2025 Student Poster Contest in the Structural Materials Division at the Minerals, Metals & Materials Society (TMS) conference in Las Vegas!
+ 
+ **See Poster Below**
+
+Conducted competitor analysis research using the USPTO website to generate ideas for viable alloys. 
+
+Utilized Thermocalc for computational work, where, using all relevant data that has been published, predicted what compositions will occur from casting an alloy without having to actually cast that alloy.
+
+Performed Scanning Electron Microscopy (SEM) scans along with the hardness and ductility testing that allowed the team to analyze different alloys to measure their viability as a lead-free brass alloy. 
+ 
+Prepared elements down to a thousandth-gram precision, then used a furnace to smelt them into a rod, which I then performed metallurgical tests on.   
+  
+::: {.column-screen}
+![TMS First Place Poster](images/TMS_Poster.jpg)
+:::

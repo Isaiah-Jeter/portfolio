@@ -1,0 +1,9 @@
+---
+title: "Winch Driver and Controller"
+description: "Progammed the driver for an electronic winch and designed and progammed a controller for it too."
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - controls
+draft: false
+---

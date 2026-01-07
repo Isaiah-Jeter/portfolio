@@ -1,0 +1,17 @@
+---
+title: "Apple"
+page-layout: article
+image: images/headshot.jpg
+
+---
+
+## Work Overview
+![](images/meca500.png){fig-align="center" width="500"}
+
+::: {.text-center}
+Image 1: Picture of 6-axis Robotic Arm
+:::
+
+Currently taking a novel approach to automoating manufactorung processes for materials that have never been polished by a robot with micrometer level accuray before. Developing code for a 6-axis robotics manufacturing arm to reach as well as other technolgies used in the solutions.
+
+More information pending NDA

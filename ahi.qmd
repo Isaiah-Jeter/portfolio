@@ -1,0 +1,8 @@
+---
+title: "Amidon Heavy Industries"
+listing:
+  contents: ahiProjects
+  sort: "date desc"
+  type: default
+  categories: false
+---

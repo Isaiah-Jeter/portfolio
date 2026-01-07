@@ -1,0 +1,39 @@
+---
+title: "AUV Subsea Simulation"
+description: "Developed and underwater siulation for the AUV with ROS2, Gazebo, and PX4"
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - simulation
+draft: false
+---
+## Overview
+Made custom world and model in Gazebo
+AUV simulated actions matched real world observations
+
+## Key Features {.unnumbered}
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**Real-time Force Visualization**
+Reports forces acting on individual AUV components as they happen.
+:::
+
+::: {.card .p-3}
+**High-Fidelity Physics**
+Accurate buoyancy physics and correctly modeled fins and motors.
+:::
+
+::: {.card .p-3}
+**Advanced Telemetry**
+Compatible with QGroundControl and capable of tracking world position.
+:::
+
+::: {.card .p-3}
+**Hardware Mirroring**
+Equipped with the same sensor suite as the physical AUV.
+:::
+
+:::
+

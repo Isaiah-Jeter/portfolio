@@ -1,0 +1,9 @@
+---
+title: "Control System for Alternate Fin Configuration"
+description: "Created an alternate control system for a rotated fin configuration on the AUV"
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - controls
+draft: false
+---

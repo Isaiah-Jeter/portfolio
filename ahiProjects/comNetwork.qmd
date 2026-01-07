@@ -1,0 +1,9 @@
+---
+title: "Communication Network"
+description: "networks communication"
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - communication network
+draft: false
+---

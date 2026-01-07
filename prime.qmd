@@ -1,0 +1,30 @@
+---
+title: "Amazon Prime Air"
+page-layout: article
+image: images/headshot.jpg
+
+---
+
+## Work Overview
+![](images/amazon_drone.jpeg){fig-align="center" width="500"}
+
+::: {.text-center}
+Image 1: Picture of Mk-37 Drone In Seattle Warehouse
+:::
+Researched and prototyped novel navigation techniques to be implemented on the Mk-30 delivery drones for the Amazon Prime Air team through clinic.
+
+Integrated and tuned sensor fusion between RFID and LiDAR for robust state estimation. 
+
+Developed ROS nodes for real-time interfacing between perception systems and flight control. 
+
+
+## MK - Pose Estimation Using Fiducial Markers
+![](images/april_Tag_Example.jpg){fig-align="center" width="500"}
+
+::: {.text-center}
+Image 2: Example of April Tags
+:::
+
+Resolved EMI-related takeoff localization failures with computer vision by designing a vision-based AprilTag system for accurate pose estimation using onboard cameras. 
+
+Researched different navigation techniques that didn't rely on GPS and wrote sections in a research paper on LiDAR and vision-based localization techniques for aerial robotics.
