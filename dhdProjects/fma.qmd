@@ -13,7 +13,7 @@ header-includes:
 - |
   <style>
     #title-block-header {
-      --banner-url: url("../images/r5banner.png");
+      --banner-url: url("images/r5banner.png");
     }
   </style>
 ---

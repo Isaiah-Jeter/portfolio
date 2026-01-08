@@ -15,7 +15,7 @@ header-includes:
   - |
     <style>
       #title-block-header {
-        --banner-url: url("../images/ijWithWinch.PNG");
+        --banner-url: url("images/ijWithWinch.PNG");
       }
     </style>
 ---

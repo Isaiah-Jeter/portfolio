@@ -7,16 +7,16 @@ header-includes:
   - |
     <style>
       #title-block-header {
-        --banner-url: url("../images/apple_logo.jpg");
+        --banner-url: url("images/apple_logo.jpg");
       }
     </style>
 ---
 
 
 ::: {layout-ncol="2"}
-![](../images/meca500.png){fig-align="center" width="500" style="border-radius: 500px;"}
+![](images/meca500.png){fig-align="center" width="500" style="border-radius: 500px;"}
 
-![](../images/ij_Apple.JPG){fig-align="center" width="500" style="border-radius: 500px;"}
+![](images/ij_Apple.JPG){fig-align="center" width="500" style="border-radius: 500px;"}
 :::
 <!-- ![](images/meca500.png){fig-align="center" width="500"} -->
 

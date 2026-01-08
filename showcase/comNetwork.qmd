@@ -16,7 +16,7 @@ header-includes:
   - |
     <style>
       #title-block-header {
-        --banner-url: url("../images/comBanner3.jpeg");
+        --banner-url: url("images/comBanner3.jpeg");
       }
     </style>
 ---
