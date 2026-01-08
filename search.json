@@ -161,11 +161,11 @@
     "text": "I designed and implemented a custom multicycle processor module in SystemVerilog capable of performing fused multiply-add operations on 16-bit half-precision floating-point numbers. I designed the unit in SystemVerilog, synthesized my iterations using Verilator. For testing, I wrote unit tests and analyzed register and variable signals over time. I also evaluated the hardware performance of FMA by generating area and timing reports, identifying the critical path, and computing the area–delay product to balance speed and efficiency.\nThis project challenged me to integrate multiple hardware concepts, including exponent alignment, mantissa normalization, and handling corner cases for addition and subtraction with differing exponents. I built supporting modules such as unpacking, product rounding, and shift/leading-zero detection logic, which all come together to execute floating-point arithmetic at the hardware level. By working through the details of rounding, overflow, and subtraction edge cases, I strengthened both my understanding of floating-point standards and my ability to architect complex digital designs.\nGit Repository"
   },
   {
-    "objectID": "apple.html#work-overview",
-    "href": "apple.html#work-overview",
+    "objectID": "apple.html#impact-overview",
+    "href": "apple.html#impact-overview",
     "title": "Apple",
-    "section": "Work Overview",
-    "text": "Work Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
+    "section": "Impact Overview",
+    "text": "Impact Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
   },
   {
     "objectID": "ahiProjects/simulation.html",
@@ -378,11 +378,11 @@
     "text": "Leading the Visual Sensor Subteam\n\n\n\nExample of AprilTag identification with optical sensor\n\n\nThe team chose me to lead the visual sensor subteam. This decision was based on both my experience with programming and cameras, as well as my familiarity with using AprilTags (shown above) for pose estimation. The idea I pitched for the AprilTags is that when a camera is trained on them, depending on the size and orientation of the markers on the tag, it’s possible to calculate the drone’s position relative to the tag. Since the AprilTags location would be static and known, calculating where the drone was in space would be trivial. Founded on that idea, my subteam designed a vision-based AprilTag pose estimation system using onboard cameras, enabling reliable initialization in challenging electromagnetic environments."
   },
   {
-    "objectID": "showcase/apple copy.html#work-overview",
-    "href": "showcase/apple copy.html#work-overview",
+    "objectID": "showcase/apple copy.html#impact-overview",
+    "href": "showcase/apple copy.html#impact-overview",
     "title": "Apple Manufacturing Robot",
-    "section": "Work Overview",
-    "text": "Work Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
+    "section": "Impact Overview",
+    "text": "Impact Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
   },
   {
     "objectID": "showcase/finControls.html",
