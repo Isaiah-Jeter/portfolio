@@ -1,12 +1,12 @@
 ---
 title: "Amazon Prime Air"
 page-layout: article
-image: images/headshot.jpg
+image: ../images/amazon_drone.jpeg
 header-includes:
   - |
     <style>
       #title-block-header {
-        --banner-url: url("images/Amazon_Prime_Air_logo.png");
+        --banner-url: url("../images/Amazon_Prime_Air_logo.png");
       }
     </style>
 ---

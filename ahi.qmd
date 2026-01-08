@@ -3,10 +3,9 @@ title: "Amidon Heavy Industries"
 css: ahi-theme.css
 listing:
   contents: ahiProjects
-  sort: "date desc"
   type: default
   categories: false
-
+  sort: "mainOrder asc"
 ---
 
 ::: {.callout-note appearance="simple"}

@@ -3,6 +3,7 @@ title: "FMA Hardware Project"
 description: "Executes floating-multiply-add operations for half precision 16-bit numbers"
 author: "Isaiah Jeter"
 date: "7/29/25"
+image: ../images/r5banner.png
 categories:
   - digital design
   - SystemVerilog

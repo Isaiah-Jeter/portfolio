@@ -1,12 +1,12 @@
 ---
 title: "Apple"
 page-layout: article
-image: images/headshot.jpg
+image: ../images/meca500.png
 header-includes:
   - |
     <style>
       #title-block-header {
-        --banner-url: url("images/apple_logo.jpg");
+        --banner-url: url("../images/apple_logo.jpg");
       }
     </style>
 ---

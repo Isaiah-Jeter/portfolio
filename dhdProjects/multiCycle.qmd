@@ -3,6 +3,7 @@ title: "Multicycle Proccesor"
 description: "Built and simulated a multicycle RISC-V processor in SystemVerilog"
 author: "Isaiah Jeter"
 date: "7/30/25"
+image: ../images/r5banner.png
 categories:
   - Digital Design
   - Verilog

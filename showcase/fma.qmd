@@ -1,0 +1,24 @@
+---
+title: "Fused Multiply Accumulator Unit"
+description: "Executes floating-multiply-add operations for half precision 16-bit numbers"
+author: "Isaiah Jeter"
+date: "7/29/25"
+categories:
+  - digital design
+  - SystemVerilog
+draft: false
+image: ../images/r5banner.png
+order: 9
+header-includes:
+- |
+  <style>
+    #title-block-header {
+      --banner-url: url("../images/r5banner.png");
+    }
+  </style>
+---
+I designed and implemented a custom multicycle processor module in SystemVerilog capable of performing fused multiply-add operations on 16-bit half-precision floating-point numbers. I designed the unit in SystemVerilog, synthesized my iterations using Verilator. For testing, I wrote unit tests and analyzed register and variable signals over time.  I also evaluated the hardware performance of FMA by generating area and timing reports, identifying the critical path, and computing the area–delay product to balance speed and efficiency.
+
+This project challenged me to integrate multiple hardware concepts, including exponent alignment, mantissa normalization, and handling corner cases for addition and subtraction with differing exponents. I built supporting modules such as unpacking, product rounding, and shift/leading-zero detection logic, which all come together to execute floating-point arithmetic at the hardware level. By working through the details of rounding, overflow, and subtraction edge cases, I strengthened both my understanding of floating-point standards and my ability to architect complex digital designs.
+
+<a href="https://github.com/Isaiah-Jeter/FMA16" class="btn btn-primary" target="_blank">Git Repository</a>

@@ -1,8 +1,10 @@
 ---
-title: "Advanced Alloy Holdings"
+# title: "Commercially viable lead-free brass alloy"
+title: "Lead-Free Brass Alloy (Award Winning Research)"
 page-layout: article
 css: ../styles.css
 image: ../images/posterSolo.JPG
+order: 1
 header-includes:
   - |
     <style>

@@ -1,0 +1,67 @@
+---
+title: "Control System for AUV"
+description: "Created an alternate control system for a rotated fin configuration on the AUV <br> <span class='listing-only'><br> <b>Click on me</b></span>"
+author: "Isaiah Jeter"
+date: "7/29/25"
+image: ../images/IJ_with_AUV2.PNG
+order: 2
+categories:
+  - controls
+  - firmware
+  - rapid prototyping
+  - testing
+draft: false
+header-includes:
+- |
+  <style>
+    #title-block-header {
+      --banner-url: url("../images/IJ_with_AUV_crop.PNG");
+    }
+  </style>
+---
+
+## Impact Overview
+
+
+During primary testing of the AUV, the driver noted that the control algorithm in place was making it hard to generate lift with the fins (shown in video at the bottom of the page). The initial solution for this was alternating all of the fins by 45 degrees so that generating lift would be easier. After implementing this change, the team noticed that the old control system no longer worked for the new fin configurations. I took ownership of developing a new control system for the alternate fin configuration. This involved calculating inertia matrices, reading Fossen’s Marine Craft Hydrodynamics and Motor Control textbook, and writing new airframe files in the firmware. My control system’s accuracy was verified via an in-office test stand (shown below) and during the second in-water test of the AUV.
+
+
+::: {style="text-align: center;"}
+<img src="../images/miniTestStand.jpeg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
+
+<p style="margin-top: 10px; font-style: italic; color: #555;">
+  Picture of mini test stand used for fin configuration testing and servo testing
+</p>
+::: 
+
+## What I owned {.unnumbered}
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**Custom Airframe Firmware**
+Made custom airframe file in the firmware that factored in the different torque, pitch, and roll allocation of each fin in the new fin configuration.
+:::
+
+::: {.card .p-3}
+**Steering Logic Implementation**
+Programmed the core steering algorithms that interfaced directly with the vessel's autonomous navigation stack.
+:::
+
+::: {.card .p-3}
+**Controlled Environemnt Testing**
+Conducted out of water tests of new fimrware and control algorithms using mini test stand.
+:::
+
+:::
+
+## Primary AUV Test
+::: {style="display: flex; flex-direction: column; align-items: center;"}
+
+{{< video ../images/waterTest.mp4 aspect-ratio="9x16" width="400" >}}
+
+<p style="text-align: center; font-style: italic; color: #555; margin-top: 10px;">
+  Video of the AUV failing to dive during primary testing
+</p>
+
+:::
