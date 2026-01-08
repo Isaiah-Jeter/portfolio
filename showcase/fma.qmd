@@ -6,13 +6,13 @@ categories:
   - digital design
   - SystemVerilog
 draft: false
-image: ../images/r5banner.png
+image: ../images/r5logo.jpg
 order: 9
 header-includes:
 - |
   <style>
     #title-block-header {
-      --banner-url: url("images/r5banner.png");
+      --banner-url: url("images/gray.jpg");
     }
   </style>
 ---

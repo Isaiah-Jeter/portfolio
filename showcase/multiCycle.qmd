@@ -3,7 +3,7 @@ title: "Multicycle Proccesor"
 description: "Built and simulated a multicycle RISC-V processor in SystemVerilog"
 author: "Isaiah Jeter"
 date: "7/30/25"
-image: ../images/r5banner.png
+image: ../images/r5logo.jpg
 order: 8
 categories:
   - Digital Design
@@ -14,7 +14,7 @@ header-includes:
 - |
   <style>
     #title-block-header {
-      --banner-url: url("images/r5banner.png");
+      --banner-url: url("images/gray.jpg");
     }
   </style>
 ---

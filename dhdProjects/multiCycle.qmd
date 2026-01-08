@@ -4,7 +4,7 @@ description: "Built and simulated a multicycle RISC-V processor in SystemVerilog
 author: "Isaiah Jeter"
 date: "7/30/25"
 css: styles.css
-image: ../images/r5banner.png
+# image: ../images/r5banner.png
 categories:
   - Digital Design
   - Verilog
@@ -14,7 +14,7 @@ header-includes:
 - |
   <style>
     #title-block-header {
-      --banner-url: url("images/r5banner.png");
+      --banner-url: url("images/gray.jpg");
     }
   </style>
 ---
