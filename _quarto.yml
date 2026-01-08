@@ -7,8 +7,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: ahi.qmd
-        text: Amidon Heavy Industries
+      - text: Amidon Heavy Industries
+        menu:
+          - text: AHI Homepage
+            href: ahi.qmd
+          - text: "---"
+          - text: "Communication Network"       # You choose the label
+            href: ahiProjects/comNetwork.qmd # Point to specific file
+          - text: "Winch Driver and Remote Controller"
+            href: ahiProjects/winch.qmd
+          - text: "Control System for AUV"
+            href: ahiProjects/finControls.qmd
+          - text: "Subsea Simulation for AUV"
+            href: ahiProjects/simulation.qmd
       - href: prime.qmd
         text: Amazon Prime Air
       - href: apple.qmd

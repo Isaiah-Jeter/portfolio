@@ -20,7 +20,7 @@ order: 6
 :::
 <!-- ![](images/meca500.png){fig-align="center" width="500"} -->
 
-## Work Overview
+## Impact Overview
 Currently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.
 
 **More information pending NDA.**
