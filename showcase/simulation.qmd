@@ -8,6 +8,7 @@ categories:
   - ROS2
   - Gazebo
   - Rapid prototyping
+  - c/c++
 draft: false
 image: ../images/simBanner2.jpeg
 header-includes:

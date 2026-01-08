@@ -24,7 +24,7 @@ header-includes:
 :::
 
 ## Impact Overview
-While I was an intern, the team made a transition from working on the AUV to building an Autonomous boat from scratch. The ensuing business allowed me, as one of the two software engineers employed, to take ownership of the entire communication system between all of the company's projects. A major consideration was to make operations wireless between the ground station and the vehicles. This came from the end goal of the entire system being long-distance and autonomous, which was not feasible with the previous tethered setup. The images and slides below will walk you through the communication network I built that has withstood the test of time. Even now, much of the networking and protocols I designed are still in place, even after my departure!
+While I was an intern, the team made a transition from working on the AUV to building an Autonomous boat from scratch. The ensuing business allowed me, as one of the two software engineers employed, to take ownership of the entire communication system between all of the company's projects. A major consideration was to make operations wireless between the ground station and the vehicles. This came from the end goal of the entire system being long-distance and autonomous, which was not feasible with the previous tethered setup. The images and slides below will walk you through the communication network I built that has withstood the test of time. Even now, much of the networking and protocols I designed are still in place in AHI's products!
 
 ## What I owned {.unnumbered}
 
@@ -32,7 +32,7 @@ While I was an intern, the team made a transition from working on the AUV to bui
 
 ::: {.card .p-3}
 **Network Design**
-Had sole ownership of the decisions for how different system components communicated with each other.
+Had sole ownership of the design decisions for how different system components communicated with each other.
 :::
 
 ::: {.card .p-3}

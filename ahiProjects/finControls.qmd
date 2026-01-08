@@ -10,6 +10,7 @@ categories:
   - firmware
   - rapid prototyping
   - testing
+  - c/c++
 draft: false
 header-includes:
 - |

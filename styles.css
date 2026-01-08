@@ -1,5 +1,5 @@
 /* css styles */
-/* Make the listing cards look sleeker */
+/* Make the listing cards look better */
 .quarto-grid-item.card {
   border: none;
   transition: transform 0.3s ease;
@@ -11,7 +11,7 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-/* Ensure the image fills the area nicely */
+/* Ensure the image fills the area */
 .listing-item-img {
   object-fit: cover;
 }
@@ -48,19 +48,19 @@
   text-shadow: 0 4px 15px rgba(0,0,0,0.9);
 }
 
-/* Optional: bigger title */
+/* Bigger title */
 #title-block-header .title {
   font-weight: 800;
   font-size: 3rem;
 }
 
 
-/* 1. Hide the element by default (This hides it on the Article Page header) */
+/* Hide the element by default (This hides it on the Article Page header) */
 .listing-only {
   display: none;
 }
 
-/* 2. Force it to appear ONLY when inside a Listing/Grid */
+/* Force it to appear ONLY when inside a Listing/Grid */
 .quarto-listing .listing-only {
   display: inline !important;
 }
@@ -72,4 +72,29 @@
 /* Hides Author ONLY on the main page header */
 #title-block-header .quarto-title-meta-author {
   display: none !important;
+}
+
+.about-links {
+  margin: 0.6rem 0 1.2rem 0;
+  font-size: 1.05rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.about-links a {
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.about-links a:hover {
+  text-decoration: underline;
+}
+
+.about-links .sep {
+  opacity: 0.4;
 }

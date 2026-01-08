@@ -10,6 +10,7 @@ categories:
   - ROS2
   - Gazebo
   - Rapid prototyping
+  - c/c++
 draft: false
 # css: styles.css
 image: ../images/simBanner2.jpeg
