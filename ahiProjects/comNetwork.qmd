@@ -3,6 +3,7 @@ title: "Communication Network"
 description: "Wrote the communication network between the Boat, ROV, AUV, and the groundstation <span class='listing-only'><br><br> <b>Click on me</b></span>"
 author: "Entry 1/4"
 order: 5
+css: styles.css
 mainOrder: 1
 categories:
   - "communication protocols"

@@ -11,6 +11,7 @@ categories:
   - Gazebo
   - Rapid prototyping
 draft: false
+css: styles.css
 image: ../images/simBanner2.jpeg
 header-includes:
 - |

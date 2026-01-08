@@ -3,6 +3,7 @@ title: "Winch Driver and Remote Controller"
 description: "After writing the motor drivers, I designed and progammed a remote controller for the ROV winch <span class='listing-only'><br><br> <b>Click on me</b></span>"
 author: "Entry 2/4"
 mainOrder: 2
+css: styles.css
 categories:
   - controls
   - drivers

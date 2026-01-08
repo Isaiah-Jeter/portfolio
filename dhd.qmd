@@ -1,6 +1,7 @@
 ---
 title: "Digital Hardware Design Showcase"
 image: ../images/meca500.png
+css: styles.css
 listing:
   contents: dhdProjects
   sort: "date desc"

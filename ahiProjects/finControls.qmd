@@ -4,6 +4,7 @@ description: "Created an alternate control system for a rotated fin configuratio
 author: "Entry 3/4"
 image: ../images/IJ_with_AUV2.PNG
 mainOrder: 3
+css: styles.css
 categories:
   - controls
   - firmware

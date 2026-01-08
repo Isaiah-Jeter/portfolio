@@ -1,6 +1,7 @@
 ---
 title: "Apple"
 page-layout: article
+css: styles.css
 image: ../images/meca500.png
 header-includes:
   - |
