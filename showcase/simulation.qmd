@@ -1,8 +1,6 @@
 ---
 title: "Subsea Simulation for AUV"
 description: "Developed an underwater simulation with a user interactble GUI for the AUV with ROS2, Gazebo, and PX4 <br> <span class='listing-only'><br> <b>Click on me</b></span>"
-author: "Isaiah Jeter"
-date: "7/29/25"
 order: 7
 categories:
   - Simulation

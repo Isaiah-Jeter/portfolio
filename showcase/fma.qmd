@@ -1,8 +1,7 @@
 ---
 title: "Fused Multiply Accumulator Unit"
 description: "Executes floating-multiply-add operations for half precision 16-bit numbers"
-author: "Isaiah Jeter"
-date: "7/29/25"
+
 categories:
   - digital design
   - SystemVerilog

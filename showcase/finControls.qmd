@@ -1,8 +1,7 @@
 ---
 title: "Control System for AUV"
 description: "Created an alternate control system for a rotated fin configuration on the AUV <br> <span class='listing-only'><br> <b>Click on me</b></span>"
-author: "Isaiah Jeter"
-date: "7/29/25"
+
 image: ../images/IJ_with_AUV2.PNG
 order: 2
 categories:

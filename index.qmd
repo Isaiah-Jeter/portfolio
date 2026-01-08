@@ -36,6 +36,6 @@ header-includes:
 ![](images/headshot.jpg){width=400px fig-align="center" style="border-radius: 50%;"}
 
 ## About Isaiah
-Isaiah Jeter is an embedded software engineer pursuing what value Robotics and AI can have in industries where they haven't previously been used. He has worked with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
+Isaiah Jeter is an embedded software engineer pursuing the value that Robotics and AI can have in industries where they haven't previously been used. He has worked with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
 
-## Enigneering Showcase
+## Engineering Showcase

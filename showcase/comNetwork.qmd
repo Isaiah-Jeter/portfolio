@@ -1,8 +1,7 @@
 ---
 title: "Communication Network"
 description: "Wrote the communication network between the Boat, ROV, AUV, and the groundstation <span class='listing-only'><br><br> <b>Click on me</b></span>"
-author: "Isaiah Jeter"
-date: "2025-07-30"
+
 order: 5
 categories:
   - "communication protocols"

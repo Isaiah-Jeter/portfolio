@@ -19,7 +19,7 @@ header-includes:
 </style>
 
 ::: {.callout-note appearance="simple"}
-**First Place Poster at Bottom of Page** Awarded by The Minerals, Metals, and Materials Society (TMS).
+**First Place Research Poster at Bottom of Page** Awarded by The Minerals, Metals, and Materials Society (TMS).
 :::
 
 ::: {style="text-align: center;"}
@@ -46,7 +46,7 @@ Served as the sole Scanning Electron Microscopy (SEM) user to evaluate alloy com
 
 ::: {.card .p-3}
 **Award-Winning Research**
-Awarded first place at the 2025 international TMS convention student poster contest in the Structural Materials division.
+Awarded first place at the 2025 international TMS Convention Student Research Poster Contest in the Structural Materials division.
 :::
 
 ::: {.card .p-3}
@@ -76,7 +76,7 @@ Conducted competitor analysis using USPTO databases to identify gaps in the mark
 ::: {style="display: flex; justify-content: center;"}
 {{< video images/dayInLife.mp4 aspect-ratio="9x16" width="400" >}}
 :::
-## Award-Winning Poster
+## Award-Winning Research Poster
 ::: {.column-screen}
 ![](images/TMS_Poster.jpg)
 :::

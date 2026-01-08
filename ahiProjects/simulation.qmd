@@ -1,7 +1,7 @@
 ---
 title: "Subsea Simulation for AUV"
 description: "Developed an underwater simulation with a user interactble GUI for the AUV with ROS2, Gazebo, and PX4 <br> <span class='listing-only'><br> <b>Click on me</b></span>"
-author: "Entry 4/4"
+# author: "Entry 4/4"
 order: 7
 mainOrder: 4
 categories:
@@ -11,7 +11,7 @@ categories:
   - Gazebo
   - Rapid prototyping
 draft: false
-css: styles.css
+# css: styles.css
 image: ../images/simBanner2.jpeg
 header-includes:
 - |
