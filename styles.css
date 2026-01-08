@@ -1,1 +1,66 @@
 /* css styles */
+/* Make the listing cards look sleeker */
+.quarto-grid-item.card {
+  border: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.quarto-grid-item.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Ensure the image fills the area nicely */
+.listing-item-img {
+  object-fit: cover;
+}
+/* Center the main title on this page */
+.quarto-title-block .title {
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Banner applied to every page title */
+#title-block-header {
+  /* 1. Custom image variable with fallback */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--banner-url);
+
+  /* 2. Sizing & positioning */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* 3. Shape & spacing */
+  padding: 6rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+
+  /* 4. Text readability */
+  text-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+
+/* Optional: bigger title */
+#title-block-header .title {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+
+/* 1. Hide the element by default (This hides it on the Article Page header) */
+.listing-only {
+  display: none;
+}
+
+/* 2. Force it to appear ONLY when inside a Listing/Grid */
+.quarto-listing .listing-only {
+  display: inline !important;
+}

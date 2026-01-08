@@ -5,4 +5,11 @@ listing:
   sort: "date desc"
   type: default
   categories: false
+header-includes:
+- |
+  <style>
+    #title-block-header {
+      --banner-url: url("../images/r5banner.png");
+    }
+  </style>
 ---

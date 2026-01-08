@@ -1,8 +1,17 @@
 ---
 title: "Amidon Heavy Industries"
+css: ahi-theme.css
 listing:
   contents: ahiProjects
   sort: "date desc"
   type: default
   categories: false
+
 ---
+
+::: {.callout-note appearance="simple"}
+**Click on any of the following four subsections to see their corresponding full page.**
+:::
+
+## Overview
+Within weeks of starting at Amidon Heavy Industries, I was told that the systems I was building as an intern would be shipped on the company’s actual products. My work wasn’t just developing my skills, but directly shaping the future of the company's technology. Following the completion of my first two projects, I began to be entrusted with mission-critical responsibilities ranging from developing firmware and drivers for STM32 microcontrollers, to building real-time TCP-based control systems in FreeRTOS, to implementing Wi-Fi video streaming pipelines. I made each prompt from my manager develop into a prototype, then into a production-ready technology, at the laser-fast times required at a startup. My reliability when it came to getting the job done fast established to my team both my technical ability and my capacity to adapt at startup speed.

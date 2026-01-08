@@ -1,9 +1,122 @@
 ---
 title: "Communication Network"
-description: "networks communication"
+description: "Wrote the communication network between the Boat, ROV, AUV, and the groundstation <span class='listing-only'><br><br> <b>Click on me</b></span>"
 author: "Isaiah Jeter"
-date: "7/29/25"
+date: "2025-07-30"
 categories:
-  - communication network
+  - "communication protocols"
+  - "FreeRTOS"
+  - "STM32"
+  - "C/C++"
+  - "Python"
 draft: false
+header-includes:
+  - |
+    <style>
+      #title-block-header {
+        --banner-url: url("../images/comBanner3.jpeg");
+      }
+    </style>
 ---
+::: {.callout-note appearance="simple"}
+**Network diagram and explanatory slides later in page**
+:::
+
+## Impact Overview
+While I was an intern, the team made a transition from working on the AUV to building an Autonomous boat from scratch. The ensuing business allowed me, as one of the two software engineers employed, to take ownership of the entire communication system between all of the company's projects. A major consideration was to make operations wireless between the ground station and the vehicles. This came from the end goal of the entire system being long-distance and autonomous, which was not feasible with the previous tethered setup. The images and slides below will walk you through the communication network I built that has withstood the test of time. Even now, much of the networking and protocols I designed are still in place, even after my departure!
+
+## What I owned {.unnumbered}
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**Network Design**
+Had sole ownership of the decisions for how different system components communicated with each other.
+:::
+
+::: {.card .p-3}
+**Real Time Control**
+Developed TCP/UDP servers and clients within FreeRTOS threads to manage low-latency communication between onboard systems.
+:::
+
+:::
+
+## Networking Diagram
+
+::: {style="text-align: center;"}
+<img src="../images/com_network_dat_flow.jpg" 
+     style="border-radius: 20px; height: 400px; width: 100%; object-fit: cover; margin-bottom: 15px;" 
+     alt="Mk-37 Drone">
+
+<p style="font-style: italic; color: #555;">
+  Diagram of wireless communication network for Amidon's autonomous boat
+</p>
+:::
+
+
+## Network Development
+```{=html}
+<div id="presentationCarousel" class="carousel slide" data-bs-ride="false" style="max-width: 800px; margin: 0 auto 20px auto; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border-radius: 12px; overflow: hidden;">
+  
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <img src="../slides/slide1.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide2.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide3.jpg" class="d-block w-100" alt="Slide 3">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide4.jpg" class="d-block w-100" alt="Slide 4">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide5.jpg" class="d-block w-100" alt="Slide 5">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide6.jpg" class="d-block w-100" alt="Slide 6">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide7.jpg" class="d-block w-100" alt="Slide 7">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide8.jpg" class="d-block w-100" alt="Slide 8">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide9.jpg" class="d-block w-100" alt="Slide 9">
+    </div>
+
+    <div class="carousel-item">
+      <img src="../slides/slide10.jpg" class="d-block w-100" alt="Slide 10">
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#presentationCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#presentationCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <a href="../images/comNetworkSlides.pdf" class="btn btn-outline-primary" role="button" download>
+    Download Full Presentation (PDF)
+  </a>
+</div>
+```
+

@@ -1,17 +1,28 @@
 ---
-title: "AUV Subsea Simulation"
-description: "Developed and underwater siulation for the AUV with ROS2, Gazebo, and PX4"
+title: "Subsea Simulation for AUV"
+description: "Developed an underwater simulation with a user interactble GUI for the AUV with ROS2, Gazebo, and PX4 <br> <span class='listing-only'><br> <b>Click on me</b></span>"
 author: "Isaiah Jeter"
 date: "7/29/25"
 categories:
-  - simulation
+  - Simulation
+  - PX4
+  - ROS2
+  - Gazebo
+  - Rapid prototyping
 draft: false
+header-includes:
+- |
+  <style>
+    #title-block-header {
+      --banner-url: url("../images/simBanner.jpeg");
+    }
+  </style>
 ---
-## Overview
-Made custom world and model in Gazebo
-AUV simulated actions matched real world observations
 
-## Key Features {.unnumbered}
+## Impact Overview
+I built a full PX4/ROS 2/Gazebo simulation environment for the company’s autonomous underwater vehicle, enabling automated test scenarios without the hardware needing to touch the water. By shifting trial-and-error into simulation, I accelerated the development cycle and reduced physical testing, which costs both money and time. My simulation's accuracy was verified thorugh real worl testing which mirrored simulation results.
+
+## What I owned {.unnumbered}
 
 ::: {layout-ncol="2"}
 
@@ -22,18 +33,32 @@ Reports forces acting on individual AUV components as they happen.
 
 ::: {.card .p-3}
 **High-Fidelity Physics**
-Accurate buoyancy physics and correctly modeled fins and motors.
+Verified accurate buoyancy and interation physics with correctly modeled fins and motors.
 :::
 
 ::: {.card .p-3}
 **Advanced Telemetry**
-Compatible with QGroundControl and capable of tracking world position.
+Interfaced with QGroundControl for telemetry to enable world position tracking.
 :::
 
 ::: {.card .p-3}
 **Hardware Mirroring**
-Equipped with the same sensor suite as the physical AUV.
+Equipped with the same sensor suite and sensor functionality as the physical AUV.
+:::
+
+::: {.card .p-3}
+**World and Model Development**
+Built custom ocean world and 1:1 simulated AUV model.
 :::
 
 :::
 
+::: {style="text-align: center;"}
+<img src="../images/sim.jpeg" 
+     style="border-radius: 20px; height: 400px; width: 100%; object-fit: cover; margin-bottom: 15px;" 
+     alt="Mk-37 Drone">
+
+<p style="font-style: italic; color: #555;">
+  Photo from simulation development
+</p>
+:::

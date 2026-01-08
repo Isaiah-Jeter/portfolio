@@ -1,25 +1,82 @@
 ---
 title: "Advanced Alloy Holdings"
 page-layout: article
-image: images/headshot.jpg
-
+css: styles.css
+image: ../images/TMS_Poster.jpg
+header-includes:
+  - |
+    <style>
+      #title-block-header {
+        --banner-url: url("images/alloy_logo.png");
+      }
+    </style>
 ---
 
-## Work Overview
-Assisted in developing a commercially viable lead-free brass alloy that could revolutionize the brass industry. 
+<style>
+  :root {
+    --banner-url: url('images/AAH_LOGO.png');
+  }
+</style>
 
-Won First Place Prize at the 2025 Student Poster Contest in the Structural Materials Division at the Minerals, Metals & Materials Society (TMS) conference in Las Vegas!
- 
- **See Poster Below**
+::: {.callout-note appearance="simple"}
+**First Place Poster at Bottom of Page** Awarded by The Minerals, Metals, and Materials Society (TMS).
+:::
 
-Conducted competitor analysis research using the USPTO website to generate ideas for viable alloys. 
+::: {style="text-align: center;"}
+![](images/posterSolo.JPG){width="40%" style="border-radius: 20px;"}
+:::
+<!-- ![Drone Prototype B](images/posterTogether.JPG){style="border-radius: 20px;"}
 
-Utilized Thermocalc for computational work, where, using all relevant data that has been published, predicted what compositions will occur from casting an alloy without having to actually cast that alloy.
+::: {layout-ncol="2"}
+![Drone Prototype A](images/posterSolo.JPG){style="border-radius: 20px;"}
 
-Performed Scanning Electron Microscopy (SEM) scans along with the hardness and ductility testing that allowed the team to analyze different alloys to measure their viability as a lead-free brass alloy. 
- 
-Prepared elements down to a thousandth-gram precision, then used a furnace to smelt them into a rod, which I then performed metallurgical tests on.   
-  
+![Drone Prototype B](images/posterTogether.JPG){style="border-radius: 20px;"}
+::: -->
+
+## Impact Overview
+I was recruited by Prof. Bassman at HMC to join her research team in Australia during the Summer to develop commercially viable lead-free brass alloys. The reason behind the focus on brass alloys was to provide a solution for the severe health impacts of lead contamination in drinking water that comes from brass pipes. I was one of three members of the experimental team that focused on alloy development and testing. I wore many hats on the team, but my two main ones were doing analysis on our alloys using the Scanning Electron Microscope (SEM) and doing alloy simulation using Thermo-Calc. The SEM allowed me to zoom so far in that I could see the microstructures of our alloys. From these SEM images, I conducted an analysis, which was the main source of information that steered the direction of further development. I used the Thermo-Calc software to predict what phases would occur in the microstructures for different alloy compositions without having to smelt the alloys, speeding up the testing cycle time. My contributions also spanned from competitor patent research to alloy smelting, to writing a research poster along with one other member of the team. The research poster we wrote resulted in us winning an international research award granted by the Minerals, Metals & Materials Society (TMS).
+
+## What I Owned {.unnumbered}
+
+::: {layout-ncol="2"}
+::: {.card .p-3}
+**Microstructure Analysis**
+Served as the sole Scanning Electron Microscopy (SEM) user to evaluate alloy compositions and guide iterative development.
+:::
+
+::: {.card .p-3}
+**Award-Winning Research**
+Awarded first place at the 2025 international TMS convention student poster contest in the Structural Materials division.
+:::
+
+::: {.card .p-3}
+**Computational Metallurgy**
+Utilized Thermo-Calc to predict phase compositions and simulate casting outcomes prior to physical fabrication.
+:::
+
+::: {.card .p-3}
+**Alloy Fabrication**
+Fabricated alloys end-to-end from element-wise composition make-up, to smelting, to polishing.
+:::
+
+::: {.card .p-3}
+**Industry Viability Testing**
+Performed metallurgical tests for hardness and ductility. Also performed machinability test, and hot rolling test to evaluate practicallity in industry.
+:::
+
+::: {.card .p-3}
+**Intellectual Property Research**
+Conducted competitor analysis using USPTO databases to identify gaps in the market and guide novel alloy design.
+:::
+
+:::
+
+<!-- {{< video images/dayInLife.mp4 width="800" height="450" aspect-ratio="16x9" >}} -->
+## Analyzing Mircostructures on the SEM
+::: {style="display: flex; justify-content: center;"}
+{{< video images/dayInLife.mp4 aspect-ratio="9x16" width="400" >}}
+:::
+## Award-Winning Poster
 ::: {.column-screen}
-![TMS First Place Poster](images/TMS_Poster.jpg)
+![](images/TMS_Poster.jpg)
 :::

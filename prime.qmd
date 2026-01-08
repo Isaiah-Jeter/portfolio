@@ -2,29 +2,67 @@
 title: "Amazon Prime Air"
 page-layout: article
 image: images/headshot.jpg
-
+header-includes:
+  - |
+    <style>
+      #title-block-header {
+        --banner-url: url("images/Amazon_Prime_Air_logo.png");
+      }
+    </style>
 ---
 
-## Work Overview
-![](images/amazon_drone.jpeg){fig-align="center" width="500"}
+## Impact Overview
+During takeoff in urban environments, Prime Air couldn't accurately measure the location and orientation of its delivery drones (pictured below) due to electromagnetic interference from the surrounding buildings. I was on a team of six engineers tasked with solving these EMI-related localization failures. While researching non-GPS localization methods, I found AprilTags and introduced them to my team as a possible solution. We ended up going forward with them, and I led the sub-team developing them into our final solution.
 
-::: {.text-center}
-Image 1: Picture of Mk-37 Drone In Seattle Warehouse
+During my time with Amazon Prime Air, I also worked on integrating sensors such as Lidar and cameras into the system. For the lidar, I worked with the subteam handling RFID sensors to integrate and tune sensor fusion pipelines combining RFID and LiDAR to improve robustness in state estimation. For the camera, I developed ROS nodes to enable real-time communication between perception systems and the flight controller.
+
+The results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.
+
+::: {style="text-align: center;"}
+<img src="images/amazon_drone.jpeg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
+
+<p style="margin-top: 10px; font-style: italic; color: #555;">
+  Picture of Mk-37 Drone In Seattle Warehouse
+</p>
+::: 
+
+## What I Owned {.unnumbered}
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**Vision-Based Localization**
+Resolved EMI-related takeoff failures by designing an AprilTag system for high-accuracy pose estimation.
 :::
-Researched and prototyped novel navigation techniques to be implemented on the Mk-30 delivery drones for the Amazon Prime Air team through clinic.
 
-Integrated and tuned sensor fusion between RFID and LiDAR for robust state estimation. 
-
-Developed ROS nodes for real-time interfacing between perception systems and flight control. 
-
-
-## MK - Pose Estimation Using Fiducial Markers
-![](images/april_Tag_Example.jpg){fig-align="center" width="500"}
-
-::: {.text-center}
-Image 2: Example of April Tags
+::: {.card .p-3}
+**Multi-Modal Sensor Fusion**
+Integrated and tuned RFID and LiDAR data streams to ensure robust state estimation in complex environments.
 :::
 
-Resolved EMI-related takeoff localization failures with computer vision by designing a vision-based AprilTag system for accurate pose estimation using onboard cameras. 
+::: {.card .p-3}
+**GPS-Denied Navigation**
+Researched and prototyped novel navigation techniques for Mk-30 delivery drone autonomy.
+:::
 
-Researched different navigation techniques that didn't rely on GPS and wrote sections in a research paper on LiDAR and vision-based localization techniques for aerial robotics.
+::: {.card .p-3}
+**Real-Time ROS Integration**
+Developed custom ROS nodes to bridge communication between perception systems and flight control hardware.
+:::
+
+:::
+
+
+
+<!-- ## Pose Estimation Using Fiducial Markers -->
+## Leading the Visual Sensor Subteam
+::: {style="text-align: center;"}
+<img src="images/april_Tag_Example.jpg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
+
+<p style="margin-top: 10px; font-style: italic; color: #555;">
+  Example of AprilTag identification with optical sensor
+</p>
+::: 
+
+The team chose me to lead the visual sensor subteam. This decision was based on both my experience with programming and cameras, as well as my familiarity with using AprilTags (shown above) for pose estimation. The idea I pitched for the AprilTags is that when a camera is trained on them, depending on the size and orientation of the markers on the tag, it's possible to calculate the drone's position relative to the tag. Since the AprilTags location would be static and known, calculating where the drone was in space would be trivial. Founded on that idea, my subteam designed a vision-based AprilTag pose estimation system using onboard cameras, enabling reliable initialization in challenging electromagnetic environments.
+

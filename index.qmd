@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Welcome to Isaiah Jeter's Portfolio"
 image: images/headshot.jpg
 about:
@@ -10,12 +10,37 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Isaiah-Jeter
+--- -->
+---
+title: "Welcome to Isaiah's Portfolio"
+listing:
+  contents: showcase
+  type: grid
+  sort: "title"
+  grid-columns: 3
+  image-height: 250px
+  fields: [image, title]
+header-includes:
+  - |
+    <style>
+      #title-block-header {
+        --banner-url: url("images/collage2.jpg");
+      }
+    </style>
 ---
 
-Isaiah Jeter is an embedded software engineer pursuing what value Robotics and AI can have in industries where they haven't previously been used. He has woredk with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
+::: {.callout-note appearance="simple"}
+**How to Navigate:** Either scroll down on this page to and click on any of the grid entries that fancies you or click the headings at the top that are sorted by company. Enjoy!
+:::
 
+![](images/headshot.jpg){width=400px fig-align="center" style="border-radius: 50%;"}
 
+## About Isaiah
+Isaiah Jeter is an embedded software engineer pursuing what value Robotics and AI can have in industries where they haven't previously been used. He has worked with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
 
+## Project Showcase
+
+<!-- 
 ## Technologies Impacted
 
 ::: {.grid}
@@ -89,5 +114,5 @@ Isaiah Jeter is an embedded software engineer pursuing what value Robotics and A
 
 
 Isaiah Jeter is an embedded software engineer with hands-on experience in robotics, autonomous vehicles, and real-time systems. He has developed firmware and control algorithms for subsea autonomous monitoring vehicles, marine surface vessels, and robotic manufacturing systems. His work spans embedded programming, networking, and simulation, with projects integrating ROS 2, PX4, and hardware-level motor control. With leadership experience from VEX Robotics and academic research in autonomy, Isaiah brings both breadth and depth across robotics engineering. He is passionate about building intelligent systems that connect software, electronics, and the physical world.
-
+ -->
 

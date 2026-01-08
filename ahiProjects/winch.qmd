@@ -1,9 +1,99 @@
 ---
-title: "Winch Driver and Controller"
-description: "Progammed the driver for an electronic winch and designed and progammed a controller for it too."
+title: "Winch Driver and Remote Controller"
+description: "After writing the motor drivers, I designed and progammed a remote controller for the ROV winch <span class='listing-only'><br><br> <b>Click on me</b></span>"
 author: "Isaiah Jeter"
-date: "7/29/25"
+date: "7/30/25"
 categories:
   - controls
+  - drivers
+  - firmware
+  - electromechanical systems
+  - rapid prototyping
 draft: false
+header-includes:
+  - |
+    <style>
+      #title-block-header {
+        --banner-url: url("../images/ijWithWinch.PNG");
+      }
+    </style>
 ---
+::: {.callout-note appearance="simple"}
+**A live winch demo is located at the bottom of the page**
+:::
+
+## Impact Overview
+During my last week at AHI I was asked to design a remote control for the winch I had previously written the driver for. This request came from the mechanical team and led to a rushed but fruitful collaobrtion during my last days at the company. The winch was replacing a manual tether-looping process with a fully automated winch system. This evolution was critical for the company since it allowed for controlled deployment and recovery of the ROV at precise distances and speeds. The ROV's primary purposed was the inspection and repair of subsea infrastrcuture making everything surrounding it a mission critical product for the company. By developing the firmware and control logic for the winch I enabled the team to rapidly test and iterate on the ROV housing designs. In order to determine the features on the controller I worked closely with the mechanical team and testing team to align hardware features with their deliverables.
+
+## What I owned {.unnumbered}
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**High-Frequency Stepper Driver**
+Developed a custom driver using the STM32 HSE clock to generate high-precision signals, mimicking PWM for smooth stepper motor actuation.
+:::
+
+::: {.card .p-3}
+**Precision Motor Control**
+Implemented closed-loop control algorithms to manage winch speed and torque during payload deployment.
+:::
+
+::: {.card .p-3}
+**Safety State Machines**
+Designed firmware logic to detect stall conditions or current spikes, preventing hardware damage during retraction.
+:::
+
+::: {.card .p-3}
+**Feature design**
+Worked with mechanical team to design the features of the remote based on product deliverables and test items.
+:::
+
+::: {.card .p-3}
+**Hardware Integration & Housing**
+Designed and executed the electrical wiring architecture and informed development of the protective housing unit for the electronics.
+:::
+
+:::
+
+## Remote Functions
+
+::: {layout-ncol="2"}
+
+![](../images\winchController.JPG)
+
+![](../images\tallWinch.JPG)
+
+
+:::
+
+::: {layout-ncol="2"}
+
+::: {.card .p-3}
+**Dynamic Velocity Scaling**
+Built "Faster" and "Slower" functions that live-updated the stepper pulse frequency for variable-speed recovery and deployment.
+:::
+
+::: {.card .p-3}
+**Manual Jogging**
+Developed a "Jog" mode for fine-tuned positioning, allowing operators to hold and release the jog button to make incremental adjustments to the ROV’s depth.
+:::
+
+::: {.card .p-3}
+**Directional Switching**
+Programmed the logic to toggle motor polarity, enabling seamless transitions between deployment and recollection of the ROV.
+:::
+
+::: {.card .p-3}
+**Start/Stop**
+Implemented interrupt-driven logic to safely initialize or halt winch operations for a controlled ROV deployment.
+:::
+
+:::
+
+
+
+## Live Winch Demo
+::: {style="display: flex; justify-content: center;"}
+{{< video ../images/winchDemo.mp4 aspect-ratio="9x16" width="400" >}}
+:::
