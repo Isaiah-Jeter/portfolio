@@ -1,8 +1,32 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/first-post.html"
+      "/showcase/aah_sc.html",
+      "/showcase/finControls.html",
+      "/showcase/winch.html",
+      "/showcase/prime copy.html",
+      "/showcase/comNetwork.html",
+      "/showcase/apple copy.html",
+      "/showcase/simulation.html",
+      "/showcase/multiCycle.html",
+      "/showcase/fma.html"
+    ]
+  },
+  {
+    "listing": "/ahi.html",
+    "items": [
+      "/ahiProjects/comNetwork.html",
+      "/ahiProjects/winch.html",
+      "/ahiProjects/finControls.html",
+      "/ahiProjects/simulation.html"
+    ]
+  },
+  {
+    "listing": "/dhd.html",
+    "items": [
+      "/dhdProjects/multiCycle.html",
+      "/dhdProjects/fma.html"
     ]
   }
 ]

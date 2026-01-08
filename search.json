@@ -1,149 +1,450 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "E155 Blog",
+    "objectID": "showcase/winch.html",
+    "href": "showcase/winch.html",
+    "title": "Winch Driver and Remote Controller",
     "section": "",
-    "text": "First Post\n\n\nIsaiah’s first blog post\n\n\n\n\n\nAug 29, 2025\n\n\nIsaiah Jeter\n\n\n\n\n\nNo matching items"
+    "text": "A live winch demo is located at the bottom of the page"
+  },
+  {
+    "objectID": "showcase/winch.html#impact-overview",
+    "href": "showcase/winch.html#impact-overview",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nDuring my last week at AHI I was asked to design a remote control for the winch I had previously written the driver for. This request came from the mechanical team and led to a rushed but fruitful collaobrtion during my last days at the company. The winch was replacing a manual tether-looping process with a fully automated winch system. This evolution was critical for the company since it allowed for controlled deployment and recovery of the ROV at precise distances and speeds. The ROV’s primary purposed was the inspection and repair of subsea infrastrcuture making everything surrounding it a mission critical product for the company. By developing the firmware and control logic for the winch I enabled the team to rapidly test and iterate on the ROV housing designs. In order to determine the features on the controller I worked closely with the mechanical team and testing team to align hardware features with their deliverables."
+  },
+  {
+    "objectID": "showcase/winch.html#what-i-owned",
+    "href": "showcase/winch.html#what-i-owned",
+    "title": "Winch Driver and Remote Controller",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nHigh-Frequency Stepper Driver Developed a custom driver using the STM32 HSE clock to generate high-precision signals, mimicking PWM for smooth stepper motor actuation.\n\n\nPrecision Motor Control Implemented closed-loop control algorithms to manage winch speed and torque during payload deployment.\n\n\n\n\nSafety State Machines Designed firmware logic to detect stall conditions or current spikes, preventing hardware damage during retraction.\n\n\nFeature design Worked with mechanical team to design the features of the remote based on product deliverables and test items.\n\n\n\n\nHardware Integration & Housing Designed and executed the electrical wiring architecture and informed development of the protective housing unit for the electronics."
+  },
+  {
+    "objectID": "showcase/winch.html#remote-functions",
+    "href": "showcase/winch.html#remote-functions",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Remote Functions",
+    "text": "Remote Functions\n\n\n\n\n\n\n\n\n\n\n\n\n\nDynamic Velocity Scaling Built “Faster” and “Slower” functions that live-updated the stepper pulse frequency for variable-speed recovery and deployment.\n\n\nManual Jogging Developed a “Jog” mode for fine-tuned positioning, allowing operators to hold and release the jog button to make incremental adjustments to the ROV’s depth.\n\n\n\n\nDirectional Switching Programmed the logic to toggle motor polarity, enabling seamless transitions between deployment and recollection of the ROV.\n\n\nStart/Stop Implemented interrupt-driven logic to safely initialize or halt winch operations for a controlled ROV deployment."
+  },
+  {
+    "objectID": "showcase/winch.html#live-winch-demo",
+    "href": "showcase/winch.html#live-winch-demo",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Live Winch Demo",
+    "text": "Live Winch Demo"
+  },
+  {
+    "objectID": "showcase/prime copy.html",
+    "href": "showcase/prime copy.html",
+    "title": "Prime Air Delivery Drone",
+    "section": "",
+    "text": "During takeoff in urban environments, Prime Air couldn’t accurately measure the location and orientation of its delivery drones (pictured below) due to electromagnetic interference from the surrounding buildings. I was on a team of six engineers tasked with solving these EMI-related localization failures. While researching non-GPS localization methods, I found AprilTags and introduced them to my team as a possible solution. We ended up going forward with them, and I led the sub-team developing them into our final solution.\nDuring my time with Amazon Prime Air, I also worked on integrating sensors such as Lidar and cameras into the system. For the lidar, I worked with the subteam handling RFID sensors to integrate and tune sensor fusion pipelines combining RFID and LiDAR to improve robustness in state estimation. For the camera, I developed ROS nodes to enable real-time communication between perception systems and the flight controller.\nThe results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.\n\n\n\nPicture of Mk-37 Drone In Seattle Warehouse"
+  },
+  {
+    "objectID": "showcase/prime copy.html#impact-overview",
+    "href": "showcase/prime copy.html#impact-overview",
+    "title": "Prime Air Delivery Drone",
+    "section": "",
+    "text": "During takeoff in urban environments, Prime Air couldn’t accurately measure the location and orientation of its delivery drones (pictured below) due to electromagnetic interference from the surrounding buildings. I was on a team of six engineers tasked with solving these EMI-related localization failures. While researching non-GPS localization methods, I found AprilTags and introduced them to my team as a possible solution. We ended up going forward with them, and I led the sub-team developing them into our final solution.\nDuring my time with Amazon Prime Air, I also worked on integrating sensors such as Lidar and cameras into the system. For the lidar, I worked with the subteam handling RFID sensors to integrate and tune sensor fusion pipelines combining RFID and LiDAR to improve robustness in state estimation. For the camera, I developed ROS nodes to enable real-time communication between perception systems and the flight controller.\nThe results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.\n\n\n\nPicture of Mk-37 Drone In Seattle Warehouse"
+  },
+  {
+    "objectID": "showcase/prime copy.html#what-i-owned",
+    "href": "showcase/prime copy.html#what-i-owned",
+    "title": "Prime Air Delivery Drone",
+    "section": "What I Owned",
+    "text": "What I Owned\n\n\n\nVision-Based Localization Resolved EMI-related takeoff failures by designing an AprilTag system for high-accuracy pose estimation.\n\n\nMulti-Modal Sensor Fusion Integrated and tuned RFID and LiDAR data streams to ensure robust state estimation in complex environments.\n\n\n\n\nGPS-Denied Navigation Researched and prototyped novel navigation techniques for Mk-30 delivery drone autonomy.\n\n\nReal-Time ROS Integration Developed custom ROS nodes to bridge communication between perception systems and flight control hardware."
+  },
+  {
+    "objectID": "showcase/prime copy.html#leading-the-visual-sensor-subteam",
+    "href": "showcase/prime copy.html#leading-the-visual-sensor-subteam",
+    "title": "Prime Air Delivery Drone",
+    "section": "Leading the Visual Sensor Subteam",
+    "text": "Leading the Visual Sensor Subteam\n\n\n\nExample of AprilTag identification with optical sensor\n\n\nThe team chose me to lead the visual sensor subteam. This decision was based on both my experience with programming and cameras, as well as my familiarity with using AprilTags (shown above) for pose estimation. The idea I pitched for the AprilTags is that when a camera is trained on them, depending on the size and orientation of the markers on the tag, it’s possible to calculate the drone’s position relative to the tag. Since the AprilTags location would be static and known, calculating where the drone was in space would be trivial. Founded on that idea, my subteam designed a vision-based AprilTag pose estimation system using onboard cameras, enabling reliable initialization in challenging electromagnetic environments."
+  },
+  {
+    "objectID": "showcase/fma.html",
+    "href": "showcase/fma.html",
+    "title": "Fused Multiply Accumulator Unit",
+    "section": "",
+    "text": "I designed and implemented a custom multicycle processor module in SystemVerilog capable of performing fused multiply-add operations on 16-bit half-precision floating-point numbers. I designed the unit in SystemVerilog, synthesized my iterations using Verilator. For testing, I wrote unit tests and analyzed register and variable signals over time. I also evaluated the hardware performance of FMA by generating area and timing reports, identifying the critical path, and computing the area–delay product to balance speed and efficiency.\nThis project challenged me to integrate multiple hardware concepts, including exponent alignment, mantissa normalization, and handling corner cases for addition and subtraction with differing exponents. I built supporting modules such as unpacking, product rounding, and shift/leading-zero detection logic, which all come together to execute floating-point arithmetic at the hardware level. By working through the details of rounding, overflow, and subtraction edge cases, I strengthened both my understanding of floating-point standards and my ability to architect complex digital designs.\nGit Repository"
+  },
+  {
+    "objectID": "showcase/comNetwork.html",
+    "href": "showcase/comNetwork.html",
+    "title": "Communication Network",
+    "section": "",
+    "text": "Network diagram and explanatory slides later in page"
+  },
+  {
+    "objectID": "showcase/comNetwork.html#impact-overview",
+    "href": "showcase/comNetwork.html#impact-overview",
+    "title": "Communication Network",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nWhile I was an intern, the team made a transition from working on the AUV to building an Autonomous boat from scratch. The ensuing business allowed me, as one of the two software engineers employed, to take ownership of the entire communication system between all of the company’s projects. A major consideration was to make operations wireless between the ground station and the vehicles. This came from the end goal of the entire system being long-distance and autonomous, which was not feasible with the previous tethered setup. The images and slides below will walk you through the communication network I built that has withstood the test of time. Even now, much of the networking and protocols I designed are still in place, even after my departure!"
+  },
+  {
+    "objectID": "showcase/comNetwork.html#what-i-owned",
+    "href": "showcase/comNetwork.html#what-i-owned",
+    "title": "Communication Network",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nNetwork Design Had sole ownership of the decisions for how different system components communicated with each other.\n\n\nReal Time Control Developed TCP/UDP servers and clients within FreeRTOS threads to manage low-latency communication between onboard systems."
+  },
+  {
+    "objectID": "showcase/comNetwork.html#networking-diagram",
+    "href": "showcase/comNetwork.html#networking-diagram",
+    "title": "Communication Network",
+    "section": "Networking Diagram",
+    "text": "Networking Diagram\n\n\n\nDiagram of wireless communication network for Amidon’s autonomous boat"
+  },
+  {
+    "objectID": "showcase/comNetwork.html#network-development",
+    "href": "showcase/comNetwork.html#network-development",
+    "title": "Communication Network",
+    "section": "Network Development",
+    "text": "Network Development\n\n  \n  \n    \n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n  \n\n  \n    \n    Previous\n  \n\n  \n    \n    Next\n  \n\n\n\n  \n    Download Full Presentation (PDF)"
+  },
+  {
+    "objectID": "showcase/aah_sc.html",
+    "href": "showcase/aah_sc.html",
+    "title": "Lead-Free Brass Alloy (Award Winning Research)",
+    "section": "",
+    "text": "First Place Poster at Bottom of Page Awarded by The Minerals, Metals, and Materials Society (TMS)."
+  },
+  {
+    "objectID": "showcase/aah_sc.html#impact-overview",
+    "href": "showcase/aah_sc.html#impact-overview",
+    "title": "Lead-Free Brass Alloy (Award Winning Research)",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nI was recruited by Prof. Bassman at HMC to join her research team in Australia during the Summer to develop commercially viable lead-free brass alloys. The reason behind the focus on brass alloys was to provide a solution for the severe health impacts of lead contamination in drinking water that comes from brass pipes. I was one of three members of the experimental team that focused on alloy development and testing. I wore many hats on the team, but my two main ones were doing analysis on our alloys using the Scanning Electron Microscope (SEM) and doing alloy simulation using Thermo-Calc. The SEM allowed me to zoom so far in that I could see the microstructures of our alloys. From these SEM images, I conducted an analysis, which was the main source of information that steered the direction of further development. I used the Thermo-Calc software to predict what phases would occur in the microstructures for different alloy compositions without having to smelt the alloys, speeding up the testing cycle time. My contributions also spanned from competitor patent research to alloy smelting, to writing a research poster along with one other member of the team. The research poster we wrote resulted in us winning an international research award granted by the Minerals, Metals & Materials Society (TMS)."
+  },
+  {
+    "objectID": "showcase/aah_sc.html#what-i-owned",
+    "href": "showcase/aah_sc.html#what-i-owned",
+    "title": "Lead-Free Brass Alloy (Award Winning Research)",
+    "section": "What I Owned",
+    "text": "What I Owned\n\n\n\nMicrostructure Analysis Served as the sole Scanning Electron Microscopy (SEM) user to evaluate alloy compositions and guide iterative development.\n\n\nAward-Winning Research Awarded first place at the 2025 international TMS convention student poster contest in the Structural Materials division.\n\n\n\n\nComputational Metallurgy Utilized Thermo-Calc to predict phase compositions and simulate casting outcomes prior to physical fabrication.\n\n\nAlloy Fabrication Fabricated alloys end-to-end from element-wise composition make-up, to smelting, to polishing.\n\n\n\n\nIndustry Viability Testing Performed metallurgical tests for hardness and ductility. Also performed machinability test, and hot rolling test to evaluate practicallity in industry.\n\n\nIntellectual Property Research Conducted competitor analysis using USPTO databases to identify gaps in the market and guide novel alloy design."
+  },
+  {
+    "objectID": "showcase/aah_sc.html#analyzing-mircostructures-on-the-sem",
+    "href": "showcase/aah_sc.html#analyzing-mircostructures-on-the-sem",
+    "title": "Lead-Free Brass Alloy (Award Winning Research)",
+    "section": "Analyzing Mircostructures on the SEM",
+    "text": "Analyzing Mircostructures on the SEM"
+  },
+  {
+    "objectID": "showcase/aah_sc.html#award-winning-poster",
+    "href": "showcase/aah_sc.html#award-winning-poster",
+    "title": "Lead-Free Brass Alloy (Award Winning Research)",
+    "section": "Award-Winning Poster",
+    "text": "Award-Winning Poster"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "E155 Portfolio",
+    "title": "Welcome to Isaiah’s Portfolio",
     "section": "",
-    "text": "Isaiah Jeter is an embedded software engineer with hands-on experience in robotics, autonomous vehicles, and real-time systems. He has developed firmware and control algorithms for subsea autonomous monitoring vehicles, marine surface vessels, and robotic manufacturing systems. His work spans embedded programming, networking, and simulation, with projects integrating ROS 2, PX4, and hardware-level motor control. With leadership experience from VEX Robotics and academic research in autonomy, Isaiah brings both breadth and depth across robotics engineering. He is passionate about building intelligent systems that connect software, electronics, and the physical world."
+    "text": "How to Navigate the Website: Either click the headings at the top that are sorted by company or scroll down on this page to and click on any of the grid entries that fancies you. Enjoy!"
   },
   {
-    "objectID": "posts/first-post.html",
-    "href": "posts/first-post.html",
-    "title": "First Post",
+    "objectID": "index.html#about-isaiah",
+    "href": "index.html#about-isaiah",
+    "title": "Welcome to Isaiah’s Portfolio",
+    "section": "About Isaiah",
+    "text": "About Isaiah\nIsaiah Jeter is an embedded software engineer pursuing what value Robotics and AI can have in industries where they haven’t previously been used. He has worked with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations."
+  },
+  {
+    "objectID": "index.html#enigneering-showcase",
+    "href": "index.html#enigneering-showcase",
+    "title": "Welcome to Isaiah’s Portfolio",
+    "section": "Enigneering Showcase",
+    "text": "Enigneering Showcase"
+  },
+  {
+    "objectID": "dhdProjects/fma.html",
+    "href": "dhdProjects/fma.html",
+    "title": "FMA Hardware Project",
     "section": "",
-    "text": "This semester I’m taking MircoP’s to strengthen my foundation in embedded systems. My goal is to gain a deeper understanding of how hardware and software interact at the lowest levels. I want to build the skills to better be able to design, program, and debug microcontroller-based systems, since these are commonly using in robotics and autonomous platforms. I see this course as a chance to prepare myself for future projects in robotics."
+    "text": "I designed and implemented a custom multicycle processor module in SystemVerilog capable of performing fused multiply-add operations on 16-bit half-precision floating-point numbers. I designed the unit in SystemVerilog, synthesized my iterations using Verilator. For testing, I wrote unit tests and analyzed register and variable signals over time. I also evaluated the hardware performance of FMA by generating area and timing reports, identifying the critical path, and computing the area–delay product to balance speed and efficiency.\nThis project challenged me to integrate multiple hardware concepts, including exponent alignment, mantissa normalization, and handling corner cases for addition and subtraction with differing exponents. I built supporting modules such as unpacking, product rounding, and shift/leading-zero detection logic, which all come together to execute floating-point arithmetic at the hardware level. By working through the details of rounding, overflow, and subtraction edge cases, I strengthened both my understanding of floating-point standards and my ability to architect complex digital designs.\nGit Repository"
   },
   {
-    "objectID": "labs/lab1/lab1.html",
-    "href": "labs/lab1/lab1.html",
-    "title": "Lab 1 Report",
+    "objectID": "apple.html#work-overview",
+    "href": "apple.html#work-overview",
+    "title": "Apple",
+    "section": "Work Overview",
+    "text": "Work Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
+  },
+  {
+    "objectID": "ahiProjects/simulation.html",
+    "href": "ahiProjects/simulation.html",
+    "title": "Subsea Simulation for AUV",
     "section": "",
-    "text": "My lab 1 design meets all the proficiency specs. The LED’s work as intended, and the 7-segment display also works as intended. As for the excellence specs, I did not write any test benches or include calculations for current draw on the segments. I spent 20 hours on this lab."
+    "text": "I built a full PX4/ROS 2/Gazebo simulation environment for the company’s autonomous underwater vehicle, enabling automated test scenarios without the hardware needing to touch the water. By shifting trial-and-error into simulation, I accelerated the development cycle and reduced physical testing, which costs both money and time. My simulation’s accuracy was verified thorugh real worl testing which mirrored simulation results."
   },
   {
-    "objectID": "labs/lab1/lab1.html#lab-1-outcomes",
-    "href": "labs/lab1/lab1.html#lab-1-outcomes",
-    "title": "Lab 1 Report",
+    "objectID": "ahiProjects/simulation.html#impact-overview",
+    "href": "ahiProjects/simulation.html#impact-overview",
+    "title": "Subsea Simulation for AUV",
     "section": "",
-    "text": "My lab 1 design meets all the proficiency specs. The LED’s work as intended, and the 7-segment display also works as intended. As for the excellence specs, I did not write any test benches or include calculations for current draw on the segments. I spent 20 hours on this lab."
+    "text": "I built a full PX4/ROS 2/Gazebo simulation environment for the company’s autonomous underwater vehicle, enabling automated test scenarios without the hardware needing to touch the water. By shifting trial-and-error into simulation, I accelerated the development cycle and reduced physical testing, which costs both money and time. My simulation’s accuracy was verified thorugh real worl testing which mirrored simulation results."
   },
   {
-    "objectID": "labs/lab1/lab1.html#diagram",
-    "href": "labs/lab1/lab1.html#diagram",
-    "title": "Lab 1 Report",
-    "section": "Diagram",
-    "text": "Diagram"
+    "objectID": "ahiProjects/simulation.html#what-i-owned",
+    "href": "ahiProjects/simulation.html#what-i-owned",
+    "title": "Subsea Simulation for AUV",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nReal-time Force Visualization Reports forces acting on individual AUV components as they happen.\n\n\nHigh-Fidelity Physics Verified accurate buoyancy and interation physics with correctly modeled fins and motors.\n\n\n\n\nAdvanced Telemetry Interfaced with QGroundControl for telemetry to enable world position tracking.\n\n\nHardware Mirroring Equipped with the same sensor suite and sensor functionality as the physical AUV.\n\n\n\n\nWorld and Model Development Built custom ocean world and 1:1 simulated AUV model.\n\n\n\n\n\n\nPhoto from simulation development"
   },
   {
-    "objectID": "labs/lab1/lab1.html#schematic",
-    "href": "labs/lab1/lab1.html#schematic",
-    "title": "Lab 1 Report",
-    "section": "Schematic",
-    "text": "Schematic"
-  },
-  {
-    "objectID": "labs/lab1/lab1.html#lab-1-ai-prototype-review",
-    "href": "labs/lab1/lab1.html#lab-1-ai-prototype-review",
-    "title": "Lab 1 Report",
-    "section": "Lab 1 AI Prototype Review",
-    "text": "Lab 1 AI Prototype Review\nTo synthesise hardware for Lab 1, I used Claudeai basic plan with the following prompt: “Write SystemVerilog HDL to leverage the internal high-speed oscillator in the Lattice UP5K FPGA and blink an LED at 2 Hz. Take full advantage of SystemVerilog syntax, for example, using logic instead of wire and reg.” The SystemVerilog constructs that the LLm generated that were new to me were localparam and a different instantiation method for the high-speed oscillator. The localparam, I guess, makes sense, but it is different from what I used. I just hardcoded the number, so in hardware it would take up a register. I don’t exactly know what local param does, but I’d assume it’d do the same thing as I did, which is take up a register. The different instation method being new to me, I feel like it may just be a lack of experience on y part because the instation method I used, which was copy pasted from one of the tutorials as per instructions in the lab, was also new to me.\nThe LLM-generated code did not end up synthesizing the first time around or even after I provided it with the errors on the second and third time around. The main issue was that it was using an unrecognized name for the high-speed oscillator. Even after telling it this, it chose another unrecognized name for it. The exact error Radiant outputted was “instantiating unknown module SB_HFOSC. VERI-1063.” Next time I incorporate an LLm into my workflow, I would give it more details on my hardware to avoid such troubles."
-  },
-  {
-    "objectID": "labs/lab1/lab1.html#lab-1-code",
-    "href": "labs/lab1/lab1.html#lab-1-code",
-    "title": "Lab 1 Report",
-    "section": "Lab 1 Code",
-    "text": "Lab 1 Code"
-  },
-  {
-    "objectID": "labs/lab1/lab1.html#lab1_ij_top.sv",
-    "href": "labs/lab1/lab1.html#lab1_ij_top.sv",
-    "title": "Lab 1 Report",
-    "section": "lab1_ij_top.sv",
-    "text": "lab1_ij_top.sv\n/**\nFile: lab1_ij_top.sv\nAuthor: Isaiah Jeter\nContact Info: ijeter@g.hmc.edu\nLast Updated: 09/02/25\nSummary: Instantiates the led controller and 7-segment display controller for lab 1\n*/\nmodule top(\n    input logic [3:0] switches, \n    output logic [6:0] seg,     \n    output logic [2:0] led      \n);\n    \n    segControl segment(switches, seg);\n    ledControl ledcontroller(switches, led);\n  \nendmodule"
-  },
-  {
-    "objectID": "labs/lab1/lab1.html#lab1_ij_segcontrol.sv",
-    "href": "labs/lab1/lab1.html#lab1_ij_segcontrol.sv",
-    "title": "Lab 1 Report",
-    "section": "lab1_ij_segControl.sv",
-    "text": "lab1_ij_segControl.sv\n/**\nFile: lab1_ij_segControl.sv\nAuthor: Isaiah Jeter\nContact Info: ijeter@g.hmc.edu\nLast Updated: 09/02/25\nSummary: Control module for seven segment display \n*/\nmodule segControl (\n    input logic [3:0] switches,       \n    output logic [6:0] seg       \n);\n\n    always_comb begin\n        case (switches)\n            4'h0: seg = 7'b1000000;\n            4'h1: seg = 7'b1111001;\n            4'h2: seg = 7'b0100100; \n            4'h3: seg = 7'b0110000;\n            4'h4: seg = 7'b0011001; \n            4'h5: seg = 7'b0010010;\n            4'h6: seg = 7'b0000010;\n            4'h7: seg = 7'b1111000; \n            4'h8: seg = 7'b0000000; \n            4'h9: seg = 7'b0010000; \n            4'hA: seg = 7'b0001000; \n            4'hB: seg = 7'b0000011; \n            4'hC: seg = 7'b1000110; \n            4'hD: seg = 7'b0100001; \n            4'hE: seg = 7'b0000110; \n            4'hF: seg = 7'b0001110; \n            default: seg = 7'b1111111; \n\n        endcase\n    end\n\nendmodule"
-  },
-  {
-    "objectID": "labs/lab1/lab1.html#lab1_ij_ledcontrol.sv",
-    "href": "labs/lab1/lab1.html#lab1_ij_ledcontrol.sv",
-    "title": "Lab 1 Report",
-    "section": "lab1_ij_ledControl.sv",
-    "text": "lab1_ij_ledControl.sv\n/**\nFile: lab1_ij_ledControl.sv\nAuthor: Isaiah Jeter\nContact Info: ijeter@g.hmc.edu\nLast Updated: 09/02/25\nSummary: Control module for logic LEDs \n*/\nmodule ledControl (\n    input logic [3:0] switches,      // 4 DIP switches [3:0]\n    output logic [2:0] led       // 3 LED outputs [2:0]\n);\n    logic int_osc;\n    logic [24:0] counter;\n    logic toggle;\n  \n    HSOSC #(.CLKHF_DIV(2'b01)) \n         hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));\n         \n   always_ff @(posedge int_osc) begin\n     if(counter &gt;= 25'd19999999)  begin\n         toggle &lt;= ~toggle;\n         counter &lt;= 0;\n         end\n     else            counter &lt;= counter + 25'd1;\n   end\n   \n    // LED control logic\n    logic led0, led1;\n   \n    assign led0 = switches[1] ^ switches[0];\n    assign led1 = switches[3] & switches[2];\n\n    assign led[2] = toggle;\n    assign led[1] = led1;\n    assign led[0] = led0;\n\nendmodule"
-  },
-  {
-    "objectID": "labs.html",
-    "href": "labs.html",
-    "title": "Labs",
+    "objectID": "ahiProjects/comNetwork.html",
+    "href": "ahiProjects/comNetwork.html",
+    "title": "Communication Network",
     "section": "",
-    "text": "View Lab 1"
+    "text": "Network diagram and explanatory slides later in page"
   },
   {
-    "objectID": "labs.html#lab-1-board-assembly-and-testing",
-    "href": "labs.html#lab-1-board-assembly-and-testing",
-    "title": "Labs",
+    "objectID": "ahiProjects/comNetwork.html#impact-overview",
+    "href": "ahiProjects/comNetwork.html#impact-overview",
+    "title": "Communication Network",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nWhile I was an intern, the team made a transition from working on the AUV to building an Autonomous boat from scratch. The ensuing business allowed me, as one of the two software engineers employed, to take ownership of the entire communication system between all of the company’s projects. A major consideration was to make operations wireless between the ground station and the vehicles. This came from the end goal of the entire system being long-distance and autonomous, which was not feasible with the previous tethered setup. The images and slides below will walk you through the communication network I built that has withstood the test of time. Even now, much of the networking and protocols I designed are still in place, even after my departure!"
+  },
+  {
+    "objectID": "ahiProjects/comNetwork.html#what-i-owned",
+    "href": "ahiProjects/comNetwork.html#what-i-owned",
+    "title": "Communication Network",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nNetwork Design Had sole ownership of the decisions for how different system components communicated with each other.\n\n\nReal Time Control Developed TCP/UDP servers and clients within FreeRTOS threads to manage low-latency communication between onboard systems."
+  },
+  {
+    "objectID": "ahiProjects/comNetwork.html#networking-diagram",
+    "href": "ahiProjects/comNetwork.html#networking-diagram",
+    "title": "Communication Network",
+    "section": "Networking Diagram",
+    "text": "Networking Diagram\n\n\n\nDiagram of wireless communication network for Amidon’s autonomous boat"
+  },
+  {
+    "objectID": "ahiProjects/comNetwork.html#network-development",
+    "href": "ahiProjects/comNetwork.html#network-development",
+    "title": "Communication Network",
+    "section": "Network Development",
+    "text": "Network Development\n\n  \n  \n    \n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n    \n      \n    \n\n  \n\n  \n    \n    Previous\n  \n\n  \n    \n    Next\n  \n\n\n\n  \n    Download Full Presentation (PDF)"
+  },
+  {
+    "objectID": "aah.html",
+    "href": "aah.html",
+    "title": "Advanced Alloy Holdings",
     "section": "",
-    "text": "View Lab 1"
+    "text": "First Place Poster at Bottom of Page Awarded by The Minerals, Metals, and Materials Society (TMS)."
   },
   {
-    "objectID": "labs.html#lab-2-multiplexed-7-segment-display",
-    "href": "labs.html#lab-2-multiplexed-7-segment-display",
-    "title": "Labs",
-    "section": "Lab 2: Multiplexed 7-Segment Display",
-    "text": "Lab 2: Multiplexed 7-Segment Display\nView Lab 2"
+    "objectID": "aah.html#impact-overview",
+    "href": "aah.html#impact-overview",
+    "title": "Advanced Alloy Holdings",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nI was recruited by Prof. Bassman at HMC to join her research team in Australia during the Summer to develop commercially viable lead-free brass alloys. The reason behind the focus on brass alloys was to provide a solution for the severe health impacts of lead contamination in drinking water that comes from brass pipes. I was one of three members of the experimental team that focused on alloy development and testing. I wore many hats on the team, but my two main ones were doing analysis on our alloys using the Scanning Electron Microscope (SEM) and doing alloy simulation using Thermo-Calc. The SEM allowed me to zoom so far in that I could see the microstructures of our alloys. From these SEM images, I conducted an analysis, which was the main source of information that steered the direction of further development. I used the Thermo-Calc software to predict what phases would occur in the microstructures for different alloy compositions without having to smelt the alloys, speeding up the testing cycle time. My contributions also spanned from competitor patent research to alloy smelting, to writing a research poster along with one other member of the team. The research poster we wrote resulted in us winning an international research award granted by the Minerals, Metals & Materials Society (TMS)."
   },
   {
-    "objectID": "labs.html#lab-3-keypad-scanner",
-    "href": "labs.html#lab-3-keypad-scanner",
-    "title": "Labs",
-    "section": "Lab 3: Keypad Scanner",
-    "text": "Lab 3: Keypad Scanner\nView Lab 3"
+    "objectID": "aah.html#what-i-owned",
+    "href": "aah.html#what-i-owned",
+    "title": "Advanced Alloy Holdings",
+    "section": "What I Owned",
+    "text": "What I Owned\n\n\n\nMicrostructure Analysis Served as the sole Scanning Electron Microscopy (SEM) user to evaluate alloy compositions and guide iterative development.\n\n\nAward-Winning Research Awarded first place at the 2025 international TMS convention student poster contest in the Structural Materials division.\n\n\n\n\nComputational Metallurgy Utilized Thermo-Calc to predict phase compositions and simulate casting outcomes prior to physical fabrication.\n\n\nAlloy Fabrication Fabricated alloys end-to-end from element-wise composition make-up, to smelting, to polishing.\n\n\n\n\nIndustry Viability Testing Performed metallurgical tests for hardness and ductility. Also performed machinability test, and hot rolling test to evaluate practicallity in industry.\n\n\nIntellectual Property Research Conducted competitor analysis using USPTO databases to identify gaps in the market and guide novel alloy design."
   },
   {
-    "objectID": "labs.html#lab-4-digital-audio",
-    "href": "labs.html#lab-4-digital-audio",
-    "title": "Labs",
-    "section": "Lab 4: Digital Audio",
-    "text": "Lab 4: Digital Audio\nView Lab 4"
+    "objectID": "aah.html#analyzing-mircostructures-on-the-sem",
+    "href": "aah.html#analyzing-mircostructures-on-the-sem",
+    "title": "Advanced Alloy Holdings",
+    "section": "Analyzing Mircostructures on the SEM",
+    "text": "Analyzing Mircostructures on the SEM"
   },
   {
-    "objectID": "labs.html#lab-5-interrupts",
-    "href": "labs.html#lab-5-interrupts",
-    "title": "Labs",
-    "section": "Lab 5: Interrupts",
-    "text": "Lab 5: Interrupts\nView Lab 5"
+    "objectID": "aah.html#award-winning-poster",
+    "href": "aah.html#award-winning-poster",
+    "title": "Advanced Alloy Holdings",
+    "section": "Award-Winning Poster",
+    "text": "Award-Winning Poster"
   },
   {
-    "objectID": "labs.html#lab-6-the-internet-of-things-and-serial-peripheral-interface",
-    "href": "labs.html#lab-6-the-internet-of-things-and-serial-peripheral-interface",
-    "title": "Labs",
-    "section": "Lab 6: The Internet of Things and Serial Peripheral Interface",
-    "text": "Lab 6: The Internet of Things and Serial Peripheral Interface\nView Lab 6"
-  },
-  {
-    "objectID": "labs.html#lab-7-the-advanced-encryption-standard-aes",
-    "href": "labs.html#lab-7-the-advanced-encryption-standard-aes",
-    "title": "Labs",
-    "section": "Lab 7: The Advanced Encryption Standard (AES)",
-    "text": "Lab 7: The Advanced Encryption Standard (AES)\nView Lab 7"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "ahi.html",
+    "href": "ahi.html",
+    "title": "Amidon Heavy Industries",
     "section": "",
-    "text": "Link to Course Website"
+    "text": "Click on any of the following four subsections to see their corresponding full page."
+  },
+  {
+    "objectID": "ahi.html#overview",
+    "href": "ahi.html#overview",
+    "title": "Amidon Heavy Industries",
+    "section": "Overview",
+    "text": "Overview\nWithin weeks of starting at Amidon Heavy Industries, I was told that the systems I was building as an intern would be shipped on the company’s actual products. My work wasn’t just developing my skills, but directly shaping the future of the company’s technology. Following the completion of my first two projects, I began to be entrusted with mission-critical responsibilities ranging from developing firmware and drivers for STM32 microcontrollers, to building real-time TCP-based control systems in FreeRTOS, to implementing Wi-Fi video streaming pipelines. I made each prompt from my manager develop into a prototype, then into a production-ready technology, at the laser-fast times required at a startup. My reliability when it came to getting the job done fast established to my team both my technical ability and my capacity to adapt at startup speed."
+  },
+  {
+    "objectID": "ahiProjects/finControls.html",
+    "href": "ahiProjects/finControls.html",
+    "title": "Control System for AUV",
+    "section": "",
+    "text": "During primary testing of the AUV, the driver noted that the control algorithm in place was making it hard to generate lift with the fins (shown in video at the bottom of the page). The initial solution for this was alternating all of the fins by 45 degrees so that generating lift would be easier. After implementing this change, the team noticed that the old control system no longer worked for the new fin configurations. I took ownership of developing a new control system for the alternate fin configuration. This involved calculating inertia matrices, reading Fossen’s Marine Craft Hydrodynamics and Motor Control textbook, and writing new airframe files in the firmware. My control system’s accuracy was verified via an in-office test stand (shown below) and during the second in-water test of the AUV.\n\n\n\nPicture of mini test stand used for fin configuration testing and servo testing"
+  },
+  {
+    "objectID": "ahiProjects/finControls.html#impact-overview",
+    "href": "ahiProjects/finControls.html#impact-overview",
+    "title": "Control System for AUV",
+    "section": "",
+    "text": "During primary testing of the AUV, the driver noted that the control algorithm in place was making it hard to generate lift with the fins (shown in video at the bottom of the page). The initial solution for this was alternating all of the fins by 45 degrees so that generating lift would be easier. After implementing this change, the team noticed that the old control system no longer worked for the new fin configurations. I took ownership of developing a new control system for the alternate fin configuration. This involved calculating inertia matrices, reading Fossen’s Marine Craft Hydrodynamics and Motor Control textbook, and writing new airframe files in the firmware. My control system’s accuracy was verified via an in-office test stand (shown below) and during the second in-water test of the AUV.\n\n\n\nPicture of mini test stand used for fin configuration testing and servo testing"
+  },
+  {
+    "objectID": "ahiProjects/finControls.html#what-i-owned",
+    "href": "ahiProjects/finControls.html#what-i-owned",
+    "title": "Control System for AUV",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nCustom Airframe Firmware Made custom airframe file in the firmware that factored in the different torque, pitch, and roll allocation of each fin in the new fin configuration.\n\n\nSteering Logic Implementation Programmed the core steering algorithms that interfaced directly with the vessel’s autonomous navigation stack.\n\n\n\n\nControlled Environemnt Testing Conducted out of water tests of new fimrware and control algorithms using mini test stand."
+  },
+  {
+    "objectID": "ahiProjects/finControls.html#primary-auv-test",
+    "href": "ahiProjects/finControls.html#primary-auv-test",
+    "title": "Control System for AUV",
+    "section": "Primary AUV Test",
+    "text": "Primary AUV Test\n\n\n\nVideo of the AUV failing to dive during primary testing"
+  },
+  {
+    "objectID": "ahiProjects/winch.html",
+    "href": "ahiProjects/winch.html",
+    "title": "Winch Driver and Remote Controller",
+    "section": "",
+    "text": "A live winch demo is located at the bottom of the page"
+  },
+  {
+    "objectID": "ahiProjects/winch.html#impact-overview",
+    "href": "ahiProjects/winch.html#impact-overview",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Impact Overview",
+    "text": "Impact Overview\nDuring my last week at AHI I was asked to design a remote control for the winch I had previously written the driver for. This request came from the mechanical team and led to a rushed but fruitful collaobrtion during my last days at the company. The winch was replacing a manual tether-looping process with a fully automated winch system. This evolution was critical for the company since it allowed for controlled deployment and recovery of the ROV at precise distances and speeds. The ROV’s primary purposed was the inspection and repair of subsea infrastrcuture making everything surrounding it a mission critical product for the company. By developing the firmware and control logic for the winch I enabled the team to rapidly test and iterate on the ROV housing designs. In order to determine the features on the controller I worked closely with the mechanical team and testing team to align hardware features with their deliverables."
+  },
+  {
+    "objectID": "ahiProjects/winch.html#what-i-owned",
+    "href": "ahiProjects/winch.html#what-i-owned",
+    "title": "Winch Driver and Remote Controller",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nHigh-Frequency Stepper Driver Developed a custom driver using the STM32 HSE clock to generate high-precision signals, mimicking PWM for smooth stepper motor actuation.\n\n\nPrecision Motor Control Implemented closed-loop control algorithms to manage winch speed and torque during payload deployment.\n\n\n\n\nSafety State Machines Designed firmware logic to detect stall conditions or current spikes, preventing hardware damage during retraction.\n\n\nFeature design Worked with mechanical team to design the features of the remote based on product deliverables and test items.\n\n\n\n\nHardware Integration & Housing Designed and executed the electrical wiring architecture and informed development of the protective housing unit for the electronics."
+  },
+  {
+    "objectID": "ahiProjects/winch.html#remote-functions",
+    "href": "ahiProjects/winch.html#remote-functions",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Remote Functions",
+    "text": "Remote Functions\n\n\n\n\n\n\n\n\n\n\n\n\n\nDynamic Velocity Scaling Built “Faster” and “Slower” functions that live-updated the stepper pulse frequency for variable-speed recovery and deployment.\n\n\nManual Jogging Developed a “Jog” mode for fine-tuned positioning, allowing operators to hold and release the jog button to make incremental adjustments to the ROV’s depth.\n\n\n\n\nDirectional Switching Programmed the logic to toggle motor polarity, enabling seamless transitions between deployment and recollection of the ROV.\n\n\nStart/Stop Implemented interrupt-driven logic to safely initialize or halt winch operations for a controlled ROV deployment."
+  },
+  {
+    "objectID": "ahiProjects/winch.html#live-winch-demo",
+    "href": "ahiProjects/winch.html#live-winch-demo",
+    "title": "Winch Driver and Remote Controller",
+    "section": "Live Winch Demo",
+    "text": "Live Winch Demo"
+  },
+  {
+    "objectID": "dhd.html",
+    "href": "dhd.html",
+    "title": "Digital Hardware Design Showcase",
+    "section": "",
+    "text": "Multicycle Proccesor\n\n\nBuilt and simulated a multicycle RISC-V processor in SystemVerilog\n\n\n\n\n\nJul 30, 2025\n\n\nIsaiah Jeter\n\n\n\n\n\n\n\n\n\n\n\n\nFMA Hardware Project\n\n\nExecutes floating-multiply-add operations for half precision 16-bit numbers\n\n\n\n\n\nJul 29, 2025\n\n\nIsaiah Jeter\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dhdProjects/multiCycle.html",
+    "href": "dhdProjects/multiCycle.html",
+    "title": "Multicycle Proccesor",
+    "section": "",
+    "text": "I built, simulated, and debugged a multicycle RISC-V processor in SystemVerilog. This was my first endeavor into RISC-V, and following this went to help the RISC-V research team from my school. While building this multicycle processor, I learned about pipelined processors, processor data paths, and processor memory.\nGit Repository"
+  },
+  {
+    "objectID": "prime.html",
+    "href": "prime.html",
+    "title": "Amazon Prime Air",
+    "section": "",
+    "text": "During takeoff in urban environments, Prime Air couldn’t accurately measure the location and orientation of its delivery drones (pictured below) due to electromagnetic interference from the surrounding buildings. I was on a team of six engineers tasked with solving these EMI-related localization failures. While researching non-GPS localization methods, I found AprilTags and introduced them to my team as a possible solution. We ended up going forward with them, and I led the sub-team developing them into our final solution.\nDuring my time with Amazon Prime Air, I also worked on integrating sensors such as Lidar and cameras into the system. For the lidar, I worked with the subteam handling RFID sensors to integrate and tune sensor fusion pipelines combining RFID and LiDAR to improve robustness in state estimation. For the camera, I developed ROS nodes to enable real-time communication between perception systems and the flight controller.\nThe results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.\n\n\n\nPicture of Mk-37 Drone In Seattle Warehouse"
+  },
+  {
+    "objectID": "prime.html#impact-overview",
+    "href": "prime.html#impact-overview",
+    "title": "Amazon Prime Air",
+    "section": "",
+    "text": "During takeoff in urban environments, Prime Air couldn’t accurately measure the location and orientation of its delivery drones (pictured below) due to electromagnetic interference from the surrounding buildings. I was on a team of six engineers tasked with solving these EMI-related localization failures. While researching non-GPS localization methods, I found AprilTags and introduced them to my team as a possible solution. We ended up going forward with them, and I led the sub-team developing them into our final solution.\nDuring my time with Amazon Prime Air, I also worked on integrating sensors such as Lidar and cameras into the system. For the lidar, I worked with the subteam handling RFID sensors to integrate and tune sensor fusion pipelines combining RFID and LiDAR to improve robustness in state estimation. For the camera, I developed ROS nodes to enable real-time communication between perception systems and the flight controller.\nThe results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.\n\n\n\nPicture of Mk-37 Drone In Seattle Warehouse"
+  },
+  {
+    "objectID": "prime.html#what-i-owned",
+    "href": "prime.html#what-i-owned",
+    "title": "Amazon Prime Air",
+    "section": "What I Owned",
+    "text": "What I Owned\n\n\n\nVision-Based Localization Resolved EMI-related takeoff failures by designing an AprilTag system for high-accuracy pose estimation.\n\n\nMulti-Modal Sensor Fusion Integrated and tuned RFID and LiDAR data streams to ensure robust state estimation in complex environments.\n\n\n\n\nGPS-Denied Navigation Researched and prototyped novel navigation techniques for Mk-30 delivery drone autonomy.\n\n\nReal-Time ROS Integration Developed custom ROS nodes to bridge communication between perception systems and flight control hardware."
+  },
+  {
+    "objectID": "prime.html#leading-the-visual-sensor-subteam",
+    "href": "prime.html#leading-the-visual-sensor-subteam",
+    "title": "Amazon Prime Air",
+    "section": "Leading the Visual Sensor Subteam",
+    "text": "Leading the Visual Sensor Subteam\n\n\n\nExample of AprilTag identification with optical sensor\n\n\nThe team chose me to lead the visual sensor subteam. This decision was based on both my experience with programming and cameras, as well as my familiarity with using AprilTags (shown above) for pose estimation. The idea I pitched for the AprilTags is that when a camera is trained on them, depending on the size and orientation of the markers on the tag, it’s possible to calculate the drone’s position relative to the tag. Since the AprilTags location would be static and known, calculating where the drone was in space would be trivial. Founded on that idea, my subteam designed a vision-based AprilTag pose estimation system using onboard cameras, enabling reliable initialization in challenging electromagnetic environments."
+  },
+  {
+    "objectID": "showcase/apple copy.html#work-overview",
+    "href": "showcase/apple copy.html#work-overview",
+    "title": "Apple Manufacturing Robot",
+    "section": "Work Overview",
+    "text": "Work Overview\nCurrently taking a novel approach to automating manufacturing processes for materials that have never been polished by a robot with micrometer level accuracy before. Developing code for a 6-axis robotic manufacturing arm as well as other technologies used in the solution.\nMore information pending NDA."
+  },
+  {
+    "objectID": "showcase/finControls.html",
+    "href": "showcase/finControls.html",
+    "title": "Control System for AUV",
+    "section": "",
+    "text": "During primary testing of the AUV, the driver noted that the control algorithm in place was making it hard to generate lift with the fins (shown in video at the bottom of the page). The initial solution for this was alternating all of the fins by 45 degrees so that generating lift would be easier. After implementing this change, the team noticed that the old control system no longer worked for the new fin configurations. I took ownership of developing a new control system for the alternate fin configuration. This involved calculating inertia matrices, reading Fossen’s Marine Craft Hydrodynamics and Motor Control textbook, and writing new airframe files in the firmware. My control system’s accuracy was verified via an in-office test stand (shown below) and during the second in-water test of the AUV.\n\n\n\nPicture of mini test stand used for fin configuration testing and servo testing"
+  },
+  {
+    "objectID": "showcase/finControls.html#impact-overview",
+    "href": "showcase/finControls.html#impact-overview",
+    "title": "Control System for AUV",
+    "section": "",
+    "text": "During primary testing of the AUV, the driver noted that the control algorithm in place was making it hard to generate lift with the fins (shown in video at the bottom of the page). The initial solution for this was alternating all of the fins by 45 degrees so that generating lift would be easier. After implementing this change, the team noticed that the old control system no longer worked for the new fin configurations. I took ownership of developing a new control system for the alternate fin configuration. This involved calculating inertia matrices, reading Fossen’s Marine Craft Hydrodynamics and Motor Control textbook, and writing new airframe files in the firmware. My control system’s accuracy was verified via an in-office test stand (shown below) and during the second in-water test of the AUV.\n\n\n\nPicture of mini test stand used for fin configuration testing and servo testing"
+  },
+  {
+    "objectID": "showcase/finControls.html#what-i-owned",
+    "href": "showcase/finControls.html#what-i-owned",
+    "title": "Control System for AUV",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nCustom Airframe Firmware Made custom airframe file in the firmware that factored in the different torque, pitch, and roll allocation of each fin in the new fin configuration.\n\n\nSteering Logic Implementation Programmed the core steering algorithms that interfaced directly with the vessel’s autonomous navigation stack.\n\n\n\n\nControlled Environemnt Testing Conducted out of water tests of new fimrware and control algorithms using mini test stand."
+  },
+  {
+    "objectID": "showcase/finControls.html#primary-auv-test",
+    "href": "showcase/finControls.html#primary-auv-test",
+    "title": "Control System for AUV",
+    "section": "Primary AUV Test",
+    "text": "Primary AUV Test\n\n\n\nVideo of the AUV failing to dive during primary testing"
+  },
+  {
+    "objectID": "showcase/multiCycle.html",
+    "href": "showcase/multiCycle.html",
+    "title": "Multicycle Proccesor",
+    "section": "",
+    "text": "I built, simulated, and debugged a multicycle RISC-V processor in SystemVerilog. This was my first endeavor into RISC-V, and following this went to help the RISC-V research team from my school. While building this multicycle processor, I learned about pipelined processors, processor data paths, and processor memory.\nGit Repository"
+  },
+  {
+    "objectID": "showcase/simulation.html",
+    "href": "showcase/simulation.html",
+    "title": "Subsea Simulation for AUV",
+    "section": "",
+    "text": "I built a full PX4/ROS 2/Gazebo simulation environment for the company’s autonomous underwater vehicle, enabling automated test scenarios without the hardware needing to touch the water. By shifting trial-and-error into simulation, I accelerated the development cycle and reduced physical testing, which costs both money and time. My simulation’s accuracy was verified thorugh real worl testing which mirrored simulation results."
+  },
+  {
+    "objectID": "showcase/simulation.html#impact-overview",
+    "href": "showcase/simulation.html#impact-overview",
+    "title": "Subsea Simulation for AUV",
+    "section": "",
+    "text": "I built a full PX4/ROS 2/Gazebo simulation environment for the company’s autonomous underwater vehicle, enabling automated test scenarios without the hardware needing to touch the water. By shifting trial-and-error into simulation, I accelerated the development cycle and reduced physical testing, which costs both money and time. My simulation’s accuracy was verified thorugh real worl testing which mirrored simulation results."
+  },
+  {
+    "objectID": "showcase/simulation.html#what-i-owned",
+    "href": "showcase/simulation.html#what-i-owned",
+    "title": "Subsea Simulation for AUV",
+    "section": "What I owned",
+    "text": "What I owned\n\n\n\nReal-time Force Visualization Reports forces acting on individual AUV components as they happen.\n\n\nHigh-Fidelity Physics Verified accurate buoyancy and interation physics with correctly modeled fins and motors.\n\n\n\n\nAdvanced Telemetry Interfaced with QGroundControl for telemetry to enable world position tracking.\n\n\nHardware Mirroring Equipped with the same sensor suite and sensor functionality as the physical AUV.\n\n\n\n\nWorld and Model Development Built custom ocean world and 1:1 simulated AUV model.\n\n\n\n\n\n\nPhoto from simulation development"
   }
 ]
