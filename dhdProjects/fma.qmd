@@ -4,7 +4,7 @@ description: "Executes floating-multiply-add operations for half precision 16-bi
 author: "Isaiah Jeter"
 date: "7/29/25"
 # image: ../images/r5banner.png
-css: styles.css
+# css: styles.css
 categories:
   - digital design
   - SystemVerilog
