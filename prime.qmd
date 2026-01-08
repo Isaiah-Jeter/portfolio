@@ -1,7 +1,7 @@
 ---
 title: "Amazon Prime Air"
 page-layout: article
-image: ../images/amazon_drone.jpeg
+image: images/amazon_drone.jpeg
 header-includes:
   - |
     <style>

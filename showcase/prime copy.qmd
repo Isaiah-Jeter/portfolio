@@ -20,7 +20,7 @@ During my time with Amazon Prime Air, I also worked on integrating sensors such 
 The results of my work led to a trade study for Prime Air in which I wrote sections evaluating LiDAR- and vision-based localization approaches for aerial robotics. My work helped inform future navigation strategies for autonomous delivery platforms across the Prime Air platform.
 
 ::: {style="text-align: center;"}
-<img src="images/amazon_drone.jpeg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
+<img src="../images/amazon_drone.jpeg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
 
 <p style="margin-top: 10px; font-style: italic; color: #555;">
   Picture of Mk-37 Drone In Seattle Warehouse
@@ -58,7 +58,7 @@ Developed custom ROS nodes to bridge communication between perception systems an
 <!-- ## Pose Estimation Using Fiducial Markers -->
 ## Leading the Visual Sensor Subteam
 ::: {style="text-align: center;"}
-<img src="images/april_Tag_Example.jpg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
+<img src="../images/april_Tag_Example.jpg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
 
 <p style="margin-top: 10px; font-style: italic; color: #555;">
   Example of AprilTag identification with optical sensor
