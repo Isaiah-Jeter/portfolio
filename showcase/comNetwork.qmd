@@ -1,6 +1,6 @@
 ---
 title: "Communication Network"
-description: "Wrote the communication network between the Boat, ROV, AUV, and the groundstation <span class='listing-only'><br><br> <b>Click on me</b></span>"
+description: "Wrote the communication network between the E-Boat, ROV, AUV, and the Groundstation <span class='listing-only'><br><br> <b>Click on me</b></span>"
 
 order: 5
 categories:
