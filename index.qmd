@@ -38,6 +38,8 @@ header-includes:
 ## About Isaiah
 Isaiah Jeter is an embedded software engineer pursuing the value that Robotics and AI can have in industries where they haven't previously been used. He has worked with embedded systems and computer vision to design autonomous robots. He is an Electrical Engineering major at Harvey Mudd College with a humanities emphasis in International Relations.
 
+**Education:** Harvey Mudd College, Harvard Westlake
+
 ## Contact Information
 
 <div class="about-links">
