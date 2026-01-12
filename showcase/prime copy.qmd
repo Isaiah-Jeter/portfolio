@@ -65,13 +65,16 @@ Developed custom ROS nodes to bridge communication between perception systems an
 
 
 <!-- ## Pose Estimation Using Fiducial Markers -->
+
 ## Leading the Visual Sensor Subteam
+
 ::: {style="text-align: center;"}
 <img src="../images/april_Tag_Example.jpg" style="border-radius: 20px; width: 500px; height: 400px; object-fit: cover;" alt="Mk-37 Drone">
 
 <p style="margin-top: 10px; font-style: italic; color: #555;">
   Example of AprilTag identification with optical sensor
 </p>
+
 ::: 
 
 The team chose me to lead the visual sensor subteam. This decision was based on both my experience with programming and cameras, as well as my familiarity with using AprilTags (shown above) for pose estimation. The idea I pitched for the AprilTags is that when a camera is trained on them, depending on the size and orientation of the markers on the tag, it's possible to calculate the drone's position relative to the tag. Since the AprilTags location would be static and known, calculating where the drone was in space would be trivial. Founded on that idea, my subteam designed a vision-based AprilTag pose estimation system using onboard cameras, enabling reliable initialization in challenging electromagnetic environments.
