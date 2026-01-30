@@ -1,16 +1,9 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/dhd.html",
     "items": [
-      "/showcase/aah_sc.html",
-      "/showcase/finControls.html",
-      "/showcase/winch.html",
-      "/showcase/prime copy.html",
-      "/showcase/comNetwork.html",
-      "/showcase/apple copy.html",
-      "/showcase/simulation.html",
-      "/showcase/multiCycle.html",
-      "/showcase/fma.html"
+      "/dhdProjects/multiCycle.html",
+      "/dhdProjects/fma.html"
     ]
   },
   {
@@ -23,10 +16,17 @@
     ]
   },
   {
-    "listing": "/dhd.html",
+    "listing": "/index.html",
     "items": [
-      "/dhdProjects/multiCycle.html",
-      "/dhdProjects/fma.html"
+      "/showcase/aah_sc.html",
+      "/showcase/finControls.html",
+      "/showcase/winch.html",
+      "/showcase/prime copy.html",
+      "/showcase/comNetwork.html",
+      "/showcase/apple copy.html",
+      "/showcase/simulation.html",
+      "/showcase/multiCycle.html",
+      "/showcase/fma.html"
     ]
   }
 ]
