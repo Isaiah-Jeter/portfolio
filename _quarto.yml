@@ -25,9 +25,11 @@ website:
       - href: apple.qmd
         text: Apple
       - href: aah.qmd
-        text: Advanced Alloy Holdings
+        text: LASPA Alloy
       - href: dhd.qmd
         text: Digital Hardware Design
+      # - href: qbsk.qmd
+      #   text: OQPSK Demo
 
 
           
