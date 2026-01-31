@@ -1,5 +1,5 @@
 ---
-title: "LASPA Alloy"
+title: "Advanced Alloy Holdings"
 page-layout: article
 css: styles.css
 image: ../images/TMS_Poster.jpg
